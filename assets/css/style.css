@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700");
+
+.bg-color-title {
+    background-color: #7faefa;
+}
+
+.bg-color-snapshot {
+    background-color: blue;
+}
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url(../images/hot-air-balloons.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
