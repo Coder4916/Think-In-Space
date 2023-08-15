@@ -13,6 +13,10 @@
 .bg-color-body{
     background-color: #8dabdb;
 }
+
+.ul-color {
+    background-color: #6a6dad;
+}
 /*------------------------------------------------ header */
 
 header {
@@ -44,4 +48,19 @@ header {
     background-size: cover;
     min-height: 200px;
 }
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.nav-menu {
+    font-size: 0px;
+}
+
+#navbar li {
+    font-size: 16px;
+    text-decoration: none;
+    color: #f2f2a2;
+}
+
 
