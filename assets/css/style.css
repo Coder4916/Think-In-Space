@@ -1,15 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700");
+/*------------------------------------------------ colors */
 
 .bg-color-title {
-    background-color: #7faefa;
+    background-color: #032255;
+    height: 100px;
 }
 
 .bg-color-snapshot {
-    background-color: blue;
+    background-color: #032255;
+    height: 100px;
 }
+
+.bg-color-body{
+    background-color: #8dabdb;
+}
+/*------------------------------------------------ header */
 
 header {
     margin: 0;
+}
+
+.title {
+    font-family: "Lexend";
+    font-weight: 400;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
+    color: #f2f2a2;
+}
+
+.snapshot{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #f2f2a2;
 }
 
 .logo {
@@ -19,3 +44,4 @@ header {
     background-size: cover;
     min-height: 200px;
 }
+
