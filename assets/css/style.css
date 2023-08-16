@@ -1,13 +1,11 @@
 /*------------------------------------------------ colors */
 
 .bg-color-title {
-    background-color: #032255;
-    height: 100px;
+    background-color: #476596;
 }
 
 .bg-color-snapshot {
-    background-color: #032255;
-    height: 100px;
+    background-color: #3b0404;
 }
 
 .bg-color-body{
@@ -15,8 +13,9 @@
 }
 
 .ul-color {
-    background-color: #6a6dad;
+    background-color: #010847;
 }
+
 /*------------------------------------------------ header */
 
 header {
@@ -24,17 +23,19 @@ header {
 }
 
 .title {
+    height: 100px;
     font-family: "Lexend";
     font-weight: 400;
     font-size: 50px;
-    margin-left: 50px;
-    margin-top: 25px;
+    padding-top: 25px;
+    padding-left: 50px;
     color: #f2f2a2;
 }
 
 .snapshot{
-    margin-top: 10px;
-    margin-left: 50px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 28px;
     font-size: 15px;
     font-family: "Roboto";
     font-weight: 400;
@@ -54,13 +55,27 @@ header {
 }
 
 .nav-menu {
-    font-size: 0px;
+    font-size: 0;
 }
 
-#navbar li {
-    font-size: 16px;
+.nav-item {
+    height: 100px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav-item a {
+    width: 100%;
     text-decoration: none;
     color: #f2f2a2;
+    height: 100px;
 }
+
+.nav-item a i {
+    display: block;
+    font-size: 30px;
+}
+
 
 
