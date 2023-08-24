@@ -1,7 +1,7 @@
 /*------------------------------------------------ colors */
 
 .bg-color-title {
-    background-color: #476596;
+    background-color: #7e93b6;
 }
 
 .bg-color-sub-title {
@@ -9,11 +9,23 @@
 }
 
 .bg-color-nav {
-    background-color: #6d7575;
+    background-color: #798383;
 }
 
 .bg-color-footer{
     background-color: #000000;
+}
+
+.bg-color-section-one {
+    background-color: rgb(71, 101, 150, 0.3);
+}
+
+.bg-color-section-two {
+    background-color: rgb(224, 97, 72, 0.3);
+}
+
+.bg-color-section-three {
+    background-color: rgb(109, 117, 117, 0.3);
 }
 
 /*------------------------------------------------ header */
@@ -85,7 +97,24 @@ header {
 
 .introduction {
     margin: 0;
-    height: 400px;
+    height: 600px;
+}
+
+.experience {
+    margin: 0;
+    height: 600px;
+}
+
+.technique {
+    margin: 0;
+    height: 600px;
+}
+
+.coach-info {
+    margin: auto;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Roboto";
 }
 
 .coach-image {
@@ -98,12 +127,6 @@ header {
     margin: auto;
 }
 
-.coach-info {
-    padding: 80px;
-    font-size: 16px;
-    font-family: "Roboto";
-}
-
 .forest-image {
     background-image: url(/assets/images/long-forest-path.jpg);
     background-position: center;
@@ -112,6 +135,22 @@ header {
     width: 300px;
     height: 300px;
     margin: auto;
+}
+
+.hot-air-balloons {
+    background-image: url(/assets/images/hot-air-balloons.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+/*------------------------------------------------ Coaching session */
+
+.table {
+    border: solid 1px;
 }
 
 /*------------------------------------------------ Footer */
