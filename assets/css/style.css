@@ -40,10 +40,6 @@
     background-color: rgb(109, 117, 117, 0.3);
 }
 
-.bg-color-testimonial {
-
-}
-
 /*------------------------------------------------ header */
 
 header {
@@ -111,25 +107,24 @@ header {
 
 /*------------------------------------------------ The Coach */
 
-.introduction {
+.the-coach {
     margin: 0;
     height: 600px;
 }
 
-.experience {
+.background {
     margin: 0;
     height: 600px;
 }
 
-.technique {
+.tried-and-tested {
     margin: 0;
     height: 600px;
 }
 
 .coach-info {
     margin: auto;
-    align-items: center;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Roboto";
 }
 
@@ -165,23 +160,77 @@ header {
 
 /*------------------------------------------------ Coaching */
 
-.coaching-info {
-    margin: auto;
-    align-items: center;
-    font-size: 16px;
-    font-family: "Roboto";
+#is-coaching-for-me {
+    margin: 0;
+    height: 600px;
 }
 
-#is-coaching-for-me {
-    
+.flowchart-image {
+    background-image: url(/assets/images/questions.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: auto; }
+
+.coaching-info-for-me {
+    margin: auto;
+    font-size: 18px;
+    font-family: "Roboto";
+    padding-top: 60px;
 }
 
 #what-to-expect {
+    margin: 0;
+    height: 600px;
+}
 
+.coaching-info-expect {
+    margin: auto;
+    font-size: 18px;
+    font-family: "Roboto";
+    padding-top: 70px;
+}
+
+#what-to-expect li {
+    padding: 5px;
+}
+
+.forest-walk {
+    background-image: url(/assets/images/forest-walk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.coaching-info-testimonial {
+    margin: auto;
+    font-size: 18px;
+    font-family: "Roboto";
+    padding-top: 80px;
+}
+
+#testimonials {
+    margin: 0;
+    height: 600px;
+}
+
+#testimonials h3 {
+    position: absolute;
+    margin: 20px 0px 0px 40px;
 }
 
 .testimonial {
-    padding: 30px;
+    margin: auto;
+    padding: 35px;
+    font-size: 18px;
+    font-family: "Roboto";
+    border: 1px solid black;
+    background-color: rgb(38, 162, 181, 0.2);
 }
 
 /*------------------------------------------------ Footer */
