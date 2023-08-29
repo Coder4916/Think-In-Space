@@ -41,22 +41,47 @@
             </div>
         </div>
     </header>
-    <section class="form-section bg-color-form">
+    <section class="form-section bg-color-form-section">
         <div class="row">
             <div class="col form">
                 <form action="#" method="post">
-                    <label for="full-name">Name</label>
-                    <input type="text" name="full-name" id="full-name" class="contact-item" placeholder="Enter your Name">
+
+                    <fieldset class="fieldset-item">
+                        <legend>Your Details</legend>
+                        <label for="full-name">Name</label>
+                    <input type="text" name="full-name" id="full-name" class="contact-item" placeholder="Name" required>
                     <label for="phone-number">Phone Number</label>
-                    <input type="tel" name="phone-number" id="phone-number" class="contact-item" placeholder="Enter your Phone Number">
+                    <input type="tel" name="phone-number" id="phone-number" class="contact-item" placeholder="Phone Number">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" class="contact-item" placeholder="Enter your Email Address">
-                    <label for="date-time">Date</label>
-                    <input type="datetime-local" name="date-time" id="date-time" class="contact-item">
-                    <label for="client-message">Message</label>
-                    <textarea name="client-message" id="client-message" cols="30" rows="10"></textarea>
-                    <input type="submit">
+                    <input type="email" name="email" id="email" class="contact-item" placeholder="Email Address" required>
+                    </fieldset>
+                    
+                    <fieldset class="fieldset-item">
+                        <legend>When and Where?</legend>
+                        <label for="date-time">Date</label>
+                        <input type="datetime-local" name="date-time" id="date-time" class="contact-item">
+                        <label for="location" name="location">Location</label>
+                        <select name="location" name="location" id="location" class="contact-item">
+                            <option value="cafe"name="cafe">Cafe</option>
+                            <option value="outdoor" name="outdoor">Outdoor</option>
+                            <option value="phone" name="phone">Phone</option>
+                            <option value="online" name="online">Online</option>
+                        </select>
+                        <label for="client-message">Message</label>
+                        <textarea name="client-message" 
+                                  id="client-message" 
+                                  class="contact-item" 
+                                  cols="30" 
+                                  rows="5" 
+                                  placeholder="Please provide any additional information you feel is relevant to your journey..."></textarea>
+                    </fieldset>
+                    <span class="submit-button">
+                        <input type="submit" value="Send" class="contact-item">
+                    </span>
                 </form>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -84,7 +109,6 @@
         </div>
         <div class="row footer-contact">
             <div class="col">
-                <p>Contact: 07708438713</p>
                 <p>Email: elwynd50@googlemail.com</p> 
             </div>
         </div>

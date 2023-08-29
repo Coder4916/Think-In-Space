@@ -13,35 +13,39 @@
 }
 
 .bg-color-footer{
-    background-color: #000000;
-}
-
-.bg-color-section-one {
-    background-color: rgb(71, 101, 150, 0.3);
-}
-
-.bg-color-section-two {
-    background-color: rgb(224, 97, 72, 0.3);
-}
-
-.bg-color-section-three {
-    background-color: rgb(109, 117, 117, 0.3);
-}
-
-.bg-color-for-me {
-    background-color: rgb(71, 101, 150, 0.3);
-}
-
-.bg-color-what-to-expect {
-    background-color: rgb(224, 97, 72, 0.3);
+    background-color: #12381b;
 }
 
 .bg-color-testimonials {
     background-color: rgb(109, 117, 117, 0.3);
 }
 
-.bg-color-form {
+.bg-color-form-section {
     background-color: rgb(71, 101, 150, 0.3);
+}
+
+.bg-color-form {
+    background-color: rgb(38, 162, 181, 0.2);
+}
+
+/*------------------------------------------------ Text Elements */
+
+h3 {
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding-top: 100px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+em {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
 }
 
 /*------------------------------------------------ header */
@@ -52,7 +56,7 @@ header {
 
 .title {
     height: 125px;
-    font-family: "Lexend";
+    font-family: "Lexend" sans-serif;
     font-weight: 400;
     font-size: 50px;
     margin: 0;
@@ -99,6 +103,7 @@ header {
 .nav-item a {
     width: 100%;
     text-decoration: none;
+    text-transform: uppercase;
     font-family: "Roboto";
     color: #fddd72;
     height: 100px;
@@ -111,104 +116,124 @@ header {
 
 /*------------------------------------------------ The Coach */
 
-.the-coach {
+.coach-section {
+    position: relative;
     margin: 0;
-    height: 600px;
+    min-height: 100vh;
+    background-color: rgb(71, 101, 150, 0.3);
 }
 
-.background {
+.coach-section p {
     margin: 0;
-    height: 600px;
-}
-
-.tried-and-tested {
-    margin: 0;
-    height: 600px;
-}
-
-.coach-info {
-    margin: auto;
-    font-size: 18px;
-    font-family: "Roboto";
+    padding: 50px;
 }
 
 .coach-image {
-    background-image: url(/assets/images/senior-teaching-young-man.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 350px;
-    margin: auto;
+    margin: 0;
 }
 
-.forest-image {
-    background-image: url(/assets/images/long-forest-path.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 350px;
-    margin: auto;
+.coach-image img {
+    height: auto;
+    width: 100%;
+    border: solid #798383 5px;
+    border-radius: 5%;
 }
 
-.hot-air-balloons {
-    background-image: url(/assets/images/hot-air-balloons.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 350px;
-    margin: auto;
+.background-section {
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    background-color: rgb(224, 97, 72, 0.3);
+}
+
+.background-section p {
+    margin: 0;
+    padding: 50px;
+}
+
+.background-section em {
+    margin-left: 50px;
+}
+
+.background-image img{
+    margin: 0;
+    height: auto;
+    width: 100%;
+    border: solid #798383 5px;
+    border-radius: 5%;
+}
+
+.tried-and-tested-section {
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    background-color: rgb(109, 117, 117, 0.3);
+}
+
+.tried-and-tested-section p {
+    margin: 0;
+    padding: 50px;
+}
+
+.tried-and-tested-image img {
+    margin: 0;
+    height: auto;
+    width: 100%;
+    border: solid #798383 5px;
+    border-radius: 5%;
 }
 
 /*------------------------------------------------ Coaching */
 
-#is-coaching-for-me {
+#why-life-coaching-section {
+    position: relative;
     margin: 0;
-    height: 600px;
+    min-height: 100vh;
+    background-color: rgb(71, 101, 150, 0.3);
 }
 
-.question-image {
-    background-image: url(/assets/images/questions.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 350px;
-    margin: auto; }
-
-.coaching-info-for-me {
-    margin: auto;
-    font-size: 18px;
-    font-family: "Roboto";
-    padding-top: 60px;
-}
-
-#what-to-expect {
+.why-life-coaching {
     margin: 0;
-    height: 600px;
+    padding: 50px;
 }
 
-.coaching-info-expect {
-    margin: auto;
+.why-life-coaching-image img{
+    margin: 0;
+    height: auto;
+    width: 100%;
+    border: solid #798383 5px;
+    border-radius: 5%; 
+}
+
+#what-to-expect-section {
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    background-color: rgb(224, 97, 72, 0.3);
+}
+
+.what-to-expect p{
+    margin: 0;
+    padding: 50px;
+}
+
+.what-to-expect ul {
+    margin: 0;
+    padding-left: 20px;
     font-size: 18px;
-    font-family: "Roboto";
-    padding-top: 70px;
 }
 
-#what-to-expect li {
-    padding: 5px;
+.what-to-expect-image {
+    height: 300px;
+    width: 300px;
 }
 
-.forest-walk {
-    background-image: url(/assets/images/forest-walk.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 350px;
-    margin: auto;
+.what-to-expect-image img {
+    margin-left: 40px;
+    height: auto;
+    width: 100%;
+    border: solid #798383 5px;
+    border-radius: 5%; 
 }
 
 .coaching-info-testimonial {
@@ -218,9 +243,9 @@ header {
     padding-top: 80px;
 }
 
-#testimonials {
+#testimonials-section {
     margin: 0;
-    height: 600px;
+    min-height: 100vh;
 }
 
 #testimonials h3 {
@@ -245,6 +270,15 @@ header {
     height: 600px;
 }
 
+.fieldset-item {
+    margin: 50px;
+    padding: 20px;
+    display: inline;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(38, 162, 181, 0.2);
+}
+
 .contact-item {
     display: block;
 }
@@ -254,7 +288,8 @@ header {
 
 #footer {
     margin: 0;
-    min-height: 300px;
+    bottom: 0;
+    min-height: 200px;
     text-align: center;
 }
 
