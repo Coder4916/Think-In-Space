@@ -40,6 +40,10 @@
     background-color: rgb(109, 117, 117, 0.3);
 }
 
+.bg-color-form {
+    background-color: rgb(71, 101, 150, 0.3);
+}
+
 /*------------------------------------------------ header */
 
 header {
@@ -133,8 +137,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     margin: auto;
 }
 
@@ -143,8 +147,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     margin: auto;
 }
 
@@ -153,8 +157,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     margin: auto;
 }
 
@@ -165,13 +169,13 @@ header {
     height: 600px;
 }
 
-.flowchart-image {
+.question-image {
     background-image: url(/assets/images/questions.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     margin: auto; }
 
 .coaching-info-for-me {
@@ -202,8 +206,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     margin: auto;
 }
 
@@ -221,16 +225,28 @@ header {
 
 #testimonials h3 {
     position: absolute;
-    margin: 20px 0px 0px 40px;
+    margin-top: 18px;
+    margin-left: 140px;
 }
 
 .testimonial {
-    margin: auto;
-    padding: 35px;
+    margin-top: 70px;
+    margin-left: 150px;
+    padding: 15px;
     font-size: 18px;
     font-family: "Roboto";
     border: 1px solid black;
     background-color: rgb(38, 162, 181, 0.2);
+}
+
+/*------------------------------------------------ Contact */
+
+.form-section {
+    height: 600px;
+}
+
+.contact-item {
+    display: block;
 }
 
 /*------------------------------------------------ Footer */
