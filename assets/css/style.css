@@ -12,22 +12,6 @@
     background-color: #798383;
 }
 
-.bg-color-footer{
-    background-color: #12381b;
-}
-
-.bg-color-testimonials {
-    background-color: rgb(109, 117, 117, 0.3);
-}
-
-.bg-color-form-section {
-    background-color: rgb(71, 101, 150, 0.3);
-}
-
-.bg-color-form {
-    background-color: rgb(38, 162, 181, 0.2);
-}
-
 /*------------------------------------------------ Text Elements */
 
 h3 {
@@ -35,7 +19,7 @@ h3 {
     font-weight: 400;
     text-align: center;
     margin: 0;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 p {
@@ -114,16 +98,18 @@ header {
     font-size: 25px;
 }
 
-/*------------------------------------------------ The Coach */
+/*------------------------------------------------ Coaching Page*/
 
-.coach-section {
+/*------------------------------------------------ Coach Section*/
+
+#coach-section {
     position: relative;
     margin: 0;
     min-height: 100vh;
     background-color: rgb(71, 101, 150, 0.3);
 }
 
-.coach-section p {
+#coach-section p {
     margin: 0;
     padding: 50px;
 }
@@ -139,19 +125,21 @@ header {
     border-radius: 5%;
 }
 
-.background-section {
+/*------------------------------------------------ Background Section*/
+
+#background-section {
     position: relative;
     margin: 0;
     min-height: 100vh;
     background-color: rgb(224, 97, 72, 0.3);
 }
 
-.background-section p {
+#background-section p {
     margin: 0;
     padding: 50px;
 }
 
-.background-section em {
+#background-section em {
     margin-left: 50px;
 }
 
@@ -163,14 +151,16 @@ header {
     border-radius: 5%;
 }
 
-.tried-and-tested-section {
+/*------------------------------------------------ Tried And Tested Section*/
+
+#tried-and-tested-section {
     position: relative;
     margin: 0;
     min-height: 100vh;
     background-color: rgb(109, 117, 117, 0.3);
 }
 
-.tried-and-tested-section p {
+#tried-and-tested-section p {
     margin: 0;
     padding: 50px;
 }
@@ -183,7 +173,9 @@ header {
     border-radius: 5%;
 }
 
-/*------------------------------------------------ Coaching */
+/*------------------------------------------------ Coaching Page */
+
+/*------------------------------------------------ Why Life Coaching Section*/
 
 #why-life-coaching-section {
     position: relative;
@@ -205,6 +197,8 @@ header {
     border-radius: 5%; 
 }
 
+/*------------------------------------------------ What To Expect Section*/
+
 #what-to-expect-section {
     position: relative;
     margin: 0;
@@ -217,9 +211,9 @@ header {
     padding: 50px;
 }
 
-.what-to-expect ul {
+.what-to-expect li {
     margin: 0;
-    padding-left: 20px;
+    padding-left: 40px;
     font-size: 18px;
 }
 
@@ -236,51 +230,99 @@ header {
     border-radius: 5%; 
 }
 
-.coaching-info-testimonial {
-    margin: auto;
-    font-size: 18px;
-    font-family: "Roboto";
-    padding-top: 80px;
-}
+/*------------------------------------------------ How We Have Helped Section*/
 
-#testimonials-section {
+#how-we-have-helped-section {
     margin: 0;
-    min-height: 100vh;
+    min-height: 150vh;
+    background-color: rgb(109, 117, 117, 0.3);
 }
 
-#testimonials h3 {
-    position: absolute;
-    margin-top: 18px;
-    margin-left: 140px;
+#how-we-have-helped-section h3 {
+    padding: 60px;
 }
 
-.testimonial {
-    margin-top: 70px;
-    margin-left: 150px;
-    padding: 15px;
-    font-size: 18px;
-    font-family: "Roboto";
-    border: 1px solid black;
+#how-we-have-helped-section hr {
+    margin: auto;
+    padding: 10px;
+    width: 50%;  
+}
+
+#how-we-have-helped-section span {
+    margin: 0;
+}
+
+.first-test-row div {
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #798383;
+    border-radius: 5%;
     background-color: rgb(38, 162, 181, 0.2);
 }
 
-/*------------------------------------------------ Contact */
-
-.form-section {
-    height: 600px;
+.second-test-row div {
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #798383;
+    border-radius: 5%;
+    background-color: rgb(38, 162, 181, 0.2);
 }
 
-.fieldset-item {
-    margin: 50px;
-    padding: 20px;
-    display: inline;
-    height: 300px;
-    width: 300px;
+.testimonial p {
+    margin: 0;
+    text-align: center;
+}
+
+.divider {
+    margin: 40px;
+}
+
+/*------------------------------------------------ Contact Page */
+
+/*------------------------------------------------ Form Section*/
+
+#form-section {
+    position: relative;
+    height: 100vh;
+    background-color: rgb(71, 101, 150, 0.3);
+}
+
+.form {
+    margin: 10px;
+    height: 100%;
     background-color: rgb(38, 162, 181, 0.2);
 }
 
 .contact-item {
     display: block;
+}
+
+.find-us-content {
+    margin: 10px;
+    height: 100%;
+    background-color: rgb(38, 162, 181, 0.2);
+}
+
+/*------------------------------------------------ Map Section*/
+.mapouter {
+    margin: 30px;
+    position: relative;
+    text-align: right;
+    height: auto;
+    width: 100%;
+}
+
+#gmap-canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+}
+
+#gmap-canvas iframe {
+    width: 100%; 
+    height: 100%;
+    
 }
 
 /*------------------------------------------------ Footer */
@@ -291,6 +333,7 @@ header {
     bottom: 0;
     min-height: 200px;
     text-align: center;
+    background-color: #3d4242;
 }
 
 .footer-menu {
