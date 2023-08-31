@@ -115,6 +115,7 @@ body {
 #coach-section {
     position: relative;
     margin: auto;
+    padding: 50px;
     width: 75%;
     background-color: rgb(120, 153, 207);
 }
@@ -125,7 +126,7 @@ body {
 }
 
 .coach-image {
-    margin: 0;
+    margin: auto;
 }
 
 .coach-image img {
@@ -140,6 +141,7 @@ body {
 #background-section {
     position: relative;
     margin: auto;
+    padding: 50px;
     width: 75%;
     background-color: rgb(224, 97, 72);
 }
@@ -147,6 +149,10 @@ body {
 .background-info {
     margin: auto;
     padding: 20px;
+}
+
+.background-image {
+    margin: auto;
 }
 
 .background-image img{
@@ -162,6 +168,7 @@ body {
 #tried-and-tested-section {
     position: relative;
     margin: auto;
+    padding: 50px;
     width: 75%;
     background-color: rgb(109, 117, 117);
 }
@@ -169,6 +176,10 @@ body {
 .tried-and-tested-info {
     margin: auto;
     padding: 20px;
+}
+
+.tried-and-tested-image {
+    margin: auto;
 }
 
 .tried-and-tested-image img {
@@ -186,6 +197,7 @@ body {
 #why-life-coaching-section {
     position: relative;
     margin: auto;
+    padding: 50px;
     width: 75%;
     background-color: rgb(71, 101, 150);
 }
@@ -208,6 +220,7 @@ body {
 #what-to-expect-section {
     position: relative;
     margin: auto;
+    padding: 50px;
     width: 75%;
     background-color: rgb(224, 97, 72);
 }
@@ -240,6 +253,7 @@ body {
 
 #how-we-have-helped-section {
     margin: auto;
+    padding: 50px;
     width: 75%;
     background-color: rgb(109, 117, 117);
 }
@@ -251,8 +265,9 @@ body {
 
 .first-test-row div {
     margin: auto;
-    height: 300px;
-    padding: 50px;
+    height: 250px;
+    width: 380px;
+    padding: 45px;
     border: 1px solid #798383;
     border-radius: 5%;
     background-color: rgb(38, 162, 181, 0.3);
@@ -260,8 +275,9 @@ body {
 
 .second-test-row div {
     margin: auto;
-    height: 300px;
-    padding: 50px;
+    height: 250px;
+    width: 380px;
+    padding: 35px;
     border: 1px solid #798383;
     border-radius: 5%;
     background-color: rgb(38, 162, 181, 0.3);
