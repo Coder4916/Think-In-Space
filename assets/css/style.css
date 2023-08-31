@@ -64,19 +64,16 @@ em {
 
 #navbar {
     background-color: #798383;
-    height: 125px;
     font-size: 0;
     margin: 0;
     padding: 0;
+    height: fit-content;
 }
 
 #navbar li {
     font-size: 20px;
     padding: 0;
-}
-
-.nav-item {
-    height: 125px;
+    height: fit-content;
 }
 
 .hvr-shutter-out-horizontal {
@@ -89,7 +86,6 @@ em {
     margin: 0;
     padding: 35px;
     width: 100%;
-    height: 125px;
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Roboto";
