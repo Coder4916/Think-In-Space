@@ -207,6 +207,10 @@ body {
     padding: 20px;
 }
 
+.why-life-coaching-image {
+    margin: auto;
+}
+
 .why-life-coaching-image img{
     margin: 0;
     height: auto;
@@ -237,8 +241,7 @@ body {
 }
 
 .what-to-expect-image {
-    height: auto;
-    width: 240px;
+    margin: auto;
 }
 
 .what-to-expect-image img {
