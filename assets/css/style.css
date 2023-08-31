@@ -14,13 +14,14 @@ h3 {
     font-family: "Lexend", sans-serif;
     font-weight: 400;
     text-align: center;
-    margin: 0;
-    padding-top: 60px;
+    margin: auto;
+    color: #fddd72;
 }
 
 p {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    color: #fddd72;
 }
 
 em {
@@ -29,6 +30,15 @@ em {
 }
 
 /*------------------------------------------------ header */
+
+body {
+    background-image: url(../images/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+}
 
 .coach-title {
     margin: 0;
@@ -55,7 +65,7 @@ em {
 .logo {
     height: 320px;
     width: 100%;
-    margin: 0;
+    margin: auto;
 }
 
 .list-inline-item:not(:last-child) {
@@ -63,21 +73,22 @@ em {
 }
 
 #navbar {
-    background-color: #798383;
+    background-color: #303333;
     font-size: 0;
+}
+
+#navbar ul{
+    height: auto;
     margin: 0;
     padding: 0;
-    height: fit-content;
 }
 
 #navbar li {
     font-size: 20px;
-    padding: 0;
-    height: fit-content;
 }
 
 .hvr-shutter-out-horizontal {
-    background-color: #798383;
+    background-color: #303333;
     margin: 0;
     padding: 0;
 }
@@ -103,14 +114,14 @@ em {
 
 #coach-section {
     position: relative;
-    margin: 0;
-    min-height: 100vh;
-    background-color: rgb(71, 101, 150, 0.3);
+    margin: auto;
+    width: 75%;
+    background-color: rgb(120, 153, 207);
 }
 
-#coach-section p {
-    margin: 0;
-    padding: 50px;
+.coach-info {
+    margin: auto;
+    padding: 20px;
 }
 
 .coach-image {
@@ -128,18 +139,14 @@ em {
 
 #background-section {
     position: relative;
-    margin: 0;
-    min-height: 100vh;
-    background-color: rgb(224, 97, 72, 0.3);
+    margin: auto;
+    width: 75%;
+    background-color: rgb(224, 97, 72);
 }
 
-#background-section p {
-    margin: 0;
-    padding: 50px;
-}
-
-#background-section em {
-    margin-left: 50px;
+.background-info {
+    margin: auto;
+    padding: 20px;
 }
 
 .background-image img{
@@ -154,14 +161,14 @@ em {
 
 #tried-and-tested-section {
     position: relative;
-    margin: 0;
-    min-height: 100vh;
-    background-color: rgb(109, 117, 117, 0.3);
+    margin: auto;
+    width: 75%;
+    background-color: rgb(109, 117, 117);
 }
 
-#tried-and-tested-section p {
-    margin: 0;
-    padding: 50px;
+.tried-and-tested-info {
+    margin: auto;
+    padding: 20px;
 }
 
 .tried-and-tested-image img {
@@ -178,14 +185,14 @@ em {
 
 #why-life-coaching-section {
     position: relative;
-    margin: 0;
-    min-height: 100vh;
-    background-color: rgb(71, 101, 150, 0.3);
+    margin: auto;
+    width: 75%;
+    background-color: rgb(71, 101, 150);
 }
 
 .why-life-coaching {
-    margin: 0;
-    padding: 50px;
+    margin: auto;
+    padding: 20px;
 }
 
 .why-life-coaching-image img{
@@ -200,14 +207,14 @@ em {
 
 #what-to-expect-section {
     position: relative;
-    margin: 0;
-    min-height: 100vh;
-    background-color: rgb(224, 97, 72, 0.3);
+    margin: auto;
+    width: 75%;
+    background-color: rgb(224, 97, 72);
 }
 
-.what-to-expect p{
-    margin: 0;
-    padding: 50px;
+.what-to-expect {
+    margin: auto;
+    padding: 20px;
 }
 
 .what-to-expect li {
@@ -217,12 +224,12 @@ em {
 }
 
 .what-to-expect-image {
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: 240px;
 }
 
 .what-to-expect-image img {
-    margin-left: 40px;
+    margin: auto;
     height: auto;
     width: 100%;
     border: solid #798383 5px;
@@ -232,13 +239,9 @@ em {
 /*------------------------------------------------ How We Have Helped Section*/
 
 #how-we-have-helped-section {
-    margin: 0;
-    min-height: 150vh;
-    background-color: rgb(109, 117, 117, 0.3);
-}
-
-#how-we-have-helped-section h3 {
-    padding: 65px;
+    margin: auto;
+    width: 75%;
+    background-color: rgb(109, 117, 117);
 }
 
 #how-we-have-helped-section hr {
@@ -248,18 +251,20 @@ em {
 
 .first-test-row div {
     margin: auto;
-    padding: 30px;
+    height: 300px;
+    padding: 50px;
     border: 1px solid #798383;
     border-radius: 5%;
-    background-color: rgb(38, 162, 181, 0.2);
+    background-color: rgb(38, 162, 181, 0.3);
 }
 
 .second-test-row div {
     margin: auto;
-    padding: 30px;
+    height: 300px;
+    padding: 50px;
     border: 1px solid #798383;
     border-radius: 5%;
-    background-color: rgb(38, 162, 181, 0.2);
+    background-color: rgb(38, 162, 181, 0.3);
 }
 
 .divider {
@@ -330,7 +335,7 @@ em {
     bottom: 0;
     min-height: 200px;
     text-align: center;
-    background-color: #3d4242;
+    background-color: #303333;
 }
 
 .footer-menu {
