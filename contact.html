@@ -12,38 +12,34 @@
 </head>
 <body>
     <header id="header">
-        <div class="row g-0">
+        <div class="row g-0 container-fluid">
             <a href="index.html" class="col-md-3">
                 <picture>
                     <source>
-                    <img class="logo" src="/assets/images/logo-image.png" alt="Website Logo 'Think-In-Space' with two trees.">
+                    <img class="logo img-fluid" src="/assets/images/logo-image.png" alt="Website Logo 'Think-In-Space' with two trees.">
                 </picture>
             </a>
-            <div class="col-md-9 title-container">
-                <div class="row g-0 bg-color-title">
-                    <div class="col-md-9">
-                        <h1 class="coach-title">Elwyn T. Davies</h1>
+            <div class="col-md-9">
+                <div class="row g-0 container-fluid">
+                    <div id="navbar" class="col-md-9">
+                        <ul class="list-inline text-center">
+                            <li class="col-6 col-sm-4 list-inline-item nav-item">
+                                <a href="index.html" class="hvr-shutter-out-horizontal"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a></li>
+                            <li class="col-6 col-sm-4 list-inline-item nav-item">
+                                <a href="coaching.html" class="hvr-shutter-out-horizontal"><i class="fa-solid fa-book" aria-hidden="true"></i><span>Coaching</span></a></li>
+                            <li class="col-6 col-sm-4 list-inline-item nav-item">
+                                <a href="contact.html" class="hvr-shutter-out-horizontal"><i class="fa-solid fa-phone" aria-hidden="true"></i><span>Contact</span></a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="row g-0 bg-color-sub-title">
-                    <div class="col-md-9">
+                <div class="row g-0 container-fluid">
+                    <div class="col-md-9 title-container">
+                        <h1 class="coach-title">Elwyn T. Davies</h1>
+                    </div>
+                    <div class="col-md-9 sub-title-container">
                         <h2 class="sub-title">Life Coach and Mentor</h2>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row g-0">
-            <div id="navbar" class="col">
-                <ul class="list-inline text-center">
-                    <li class="col-6 col-sm-3 list-inline-item nav-item">
-                        <a href="index.html" class="hvr-shutter-out-horizontal"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a></li>
-                    <li class="col-6 col-sm-3 list-inline-item nav-item">
-                        <a href="coaching.html" class="hvr-shutter-out-horizontal"><i class="fa-solid fa-book" aria-hidden="true"></i><span>Coaching</span></a></li>
-                    <li class="col-6 col-sm-3 list-inline-item nav-item">
-                        <a href="contact.html" class="hvr-shutter-out-horizontal"><i class="fa-solid fa-phone" aria-hidden="true"></i><span>Contact</span></a></li>
-                    <li class="col-6 col-sm-3 list-inline-item nav-item">
-                        <a href="faqs.html" class="hvr-shutter-out-horizontal"><i class="fa-solid fa-comment" aria-hidden="true"></i><span>FAQs</span></a></li>
-                </ul>
             </div>
         </div>
     </header>
@@ -56,10 +52,10 @@
             </div>
         </div>
         <div class="row g-0">
-            <div class="col-md-6 center-form">
+            <div class="col center-form">
                     <form class="form" action="#" method="post">
                         <div class="row g-0">
-                            <div class="col field-one">
+                            <div class="col-md-6 field-one">
                                 <fieldset>
                                     <legend>Your Details</legend>
                                     <label for="full-name">Name</label>
@@ -70,7 +66,7 @@
                                         <input type="email" name="email" id="email" class="contact-item" placeholder="Email Address" required>
                                 </fieldset>
                             </div>
-                            <div class="col field-two">
+                            <div class="col-md-6 field-two">
                             <fieldset >
                                 <legend>When and Where?</legend>
                                     <label for="date-time">Date</label>
@@ -98,33 +94,41 @@
                         </div>
                     </div>
                     </form>
+            </div>
         </div>
-            <div class="col-md-6">
-                <div class="row g-0 find-us-content">
-                    <div class="col contact-details">
-                        <p>
+    </section>
 
-                        </p>
-                        <p>
+    <section id="find-us-section">
+        <div class="row g-0 container-fluid">
+            <div class="col-md-3">
+                <p>
+                    Tel: ##### ######
+                </p>
+                <p>
+                    Email: ############
+                </p>
+            </div>
+                <div class="col-md-9 mapouter">
+                    <div id="gmap-canvas">
+                        <iframe src="https://maps.google.com/maps?q=Think+In+Spac&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+                                frameborder="0" 
+                                scrolling="no" 
+                                marginheight="0" 
+                                marginwidth="0">
+                        </iframe>
+                        <a href="https://textcaseconvert.com/"></a>
+                        <br>
+                        <a href="https://online-timer.me/"></a>
+                        <br>
+                        <a href="https://timenowin.net/"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faqs-section">
+        <div class="row g-0 container-fluid">
+            <div class="col">
 
-                        </p>
-                    </div>
-                        <div class="col mapouter">
-                            <div id="gmap-canvas">
-                                <iframe src="https://maps.google.com/maps?q=Think+In+Spac&t=&z=14&ie=UTF8&iwloc=&output=embed" 
-                                        frameborder="0" 
-                                        scrolling="no" 
-                                        marginheight="0" 
-                                        marginwidth="0">
-                                </iframe>
-                                <a href="https://textcaseconvert.com/"></a>
-                                <br>
-                                <a href="https://online-timer.me/"></a>
-                                <br>
-                                <a href="https://timenowin.net/"></a>
-                            </div>
-                        </div>
-                </div> 
             </div>
         </div>
     </section>

@@ -52,3 +52,4 @@ CMD ["tail", "-f", "/dev/null"]
 
 # Allows proxy to work for react/drf on cloud ide's
 ENV DANGEROUSLY_DISABLE_HOST_CHECK=true
+
