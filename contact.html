@@ -54,8 +54,10 @@
         <div class="row g-0">
             <div class="col center-form">
                     <form class="form" action="#" method="post">
-                        <div class="row g-0">
-                            <div class="col-md-6 field-one">
+                        <div class="row g-0 container-fluid">
+
+                            <div class="col-md-6">
+
                                 <fieldset>
                                     <legend>Your Details</legend>
                                     <label for="full-name">Name</label>
@@ -65,27 +67,28 @@
                                         <label for="email">Email</label>
                                         <input type="email" name="email" id="email" class="contact-item" placeholder="Email Address" required>
                                 </fieldset>
-                            </div>
-                            <div class="col-md-6 field-two">
-                            <fieldset >
-                                <legend>When and Where?</legend>
-                                    <label for="location" name="location">Location</label>
-                                        <select name="location" name="location" id="location" class="contact-item">
-                                            <option value="cafe"name="cafe">Cafe</option>
-                                            <option value="outdoor" name="outdoor">Outdoor</option>
-                                            <option value="phone" name="phone">Phone</option>
-                                            <option value="online" name="online">Online</option>
-                                        </select>
-                                    <label for="client-message">Message</label>
+                                
+                            
+                                <fieldset >
+                                    <legend>When and Where?</legend>
+                                        <label for="location" name="location">Location</label>
+                                            <select name="location" name="location" id="location" class="contact-item">
+                                                <option value="cafe"name="cafe">Cafe</option>
+                                                <option value="outdoor" name="outdoor">Outdoor</option>
+                                                <option value="phone" name="phone">Phone</option>
+                                                <option value="online" name="online">Online</option>
+                                            </select>
+                                        <label for="client-message">Message</label>
                                         <textarea name="client-message" 
                                                   id="client-message" 
                                                   class="contact-item" 
                                                   cols="30" 
                                                   rows="4" 
                                                   placeholder="Please provide any additional information you feel is relevant..."></textarea>
-                            </fieldset>
+                                </fieldset>
+
+                            </div>
                         </div>
-                    </div>
                     <div class="row g-0 text-center">
                         <div class="col button-container">
                             <button type="submit" value="Send" class="btn btn-primary">Get in contact</button>
@@ -93,18 +96,8 @@
                     </div>
                     </form>
             </div>
-        </div>
-    </section>
-
-    <section id="find-us-section">
-        <div class="row g-0 container-fluid">
             <div class="col-md-3">
-                <p>
-                    Tel: ##### ######
-                </p>
-                <p>
-                    Email: elwynd50@googlemail.com
-                </p>
+                
             </div>
                 <div class="col mapouter">
                     <div id="gmap-canvas">
@@ -119,10 +112,19 @@
                         <a href="https://online-timer.me/"></a>
                         <br>
                         <a href="https://timenowin.net/"></a>
+                    </div>
+                    <p>
+                        Tel: 
+                    </p>
+                    <p>
+                        Email: elwynd50@googlemail.com
+                    </p>
                 </div>
             </div>
         </div>
     </section>
+
+    
     <section id="faqs-section">
         <div class="row g-0 container-fluid">
             <div class="col">
