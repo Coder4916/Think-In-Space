@@ -44,28 +44,25 @@
         </div>
     </header>
     <section id="form-section" class="container-fluid">
-        <div class="row g-0">
+        <div class="row g-0 container-fluid">
             <div class="col">
                 <h3 class="text-center" style="padding-top: 60px;">Would you like to book a session?</h3>
                 <p class="text-center" style="padding: 40px;">If so, please enter your details below and we'll be in touch. 
                                        Alternatively find us or contact us directly.</p>
             </div>
         </div>
-        <div class="row g-0">
-            <div class="col center-form">
+        <div class="row g-0 container-fluid">
+            <div class="col-md-5 form-container">
                     <form class="form" action="#" method="post">
-                        <div class="row g-0 container-fluid">
-
-                            <div class="col-md-6">
-
+                        
                                 <fieldset>
                                     <legend>Your Details</legend>
                                     <label for="full-name">Name</label>
-                                        <input type="text" name="full-name" id="full-name" class="contact-item" placeholder="Name" required>
+                                        <input type="text" name="full-name" id="full-name" class="contact-item" placeholder="Name" aria-label="Name" required>
                                         <label for="phone-number">Phone Number</label>
-                                        <input type="tel" name="phone-number" id="phone-number" class="contact-item" placeholder="Phone Number">
+                                        <input type="tel" name="phone-number" id="phone-number" class="contact-item" placeholder="Phone Number" aria-label="Phone Number">
                                         <label for="email">Email</label>
-                                        <input type="email" name="email" id="email" class="contact-item" placeholder="Email Address" required>
+                                        <input type="email" name="email" id="email" class="contact-item" placeholder="Email Address" aria-label="Email Address" required>
                                 </fieldset>
                                 
                             
@@ -82,24 +79,18 @@
                                         <textarea name="client-message" 
                                                   id="client-message" 
                                                   class="contact-item" 
-                                                  cols="30" 
+                                                  cols="25" 
                                                   rows="4" 
                                                   placeholder="Please provide any additional information you feel is relevant..."></textarea>
                                 </fieldset>
 
-                            </div>
-                        </div>
-                    <div class="row g-0 text-center">
-                        <div class="col button-container">
+                        <div class="button-container">
                             <button type="submit" value="Send" class="btn btn-primary">Get in contact</button>
                         </div>
-                    </div>
+                
                     </form>
             </div>
-            <div class="col-md-3">
-                
-            </div>
-                <div class="col mapouter">
+                <div class="col-md-5 mapouter">
                     <div id="gmap-canvas">
                         <iframe src="https://maps.google.com/maps?q=Think+In+Spac&t=&z=14&ie=UTF8&iwloc=&output=embed" 
                                 frameborder="0" 
@@ -114,14 +105,13 @@
                         <a href="https://timenowin.net/"></a>
                     </div>
                     <p>
-                        Tel: 
+                        Tel: 07708 438713
                     </p>
                     <p>
                         Email: elwynd50@googlemail.com
                     </p>
                 </div>
             </div>
-        </div>
     </section>
 
     
@@ -129,6 +119,34 @@
         <div class="row g-0 container-fluid">
             <div class="col">
                 <h3>Frequently Asked questions.</h3>
+            </div>
+            <div>
+                <h4 class="text-center">What are the benefits of coaching?</h4>
+                <p>
+                    Some clients suggest accessing a safe space where they can be heard without
+                    being judged or interrupted. Others see the process as transformational because it
+                    gives them a space to clarify their thoughts without the fear of being criticised.
+                    Others might site having access to a sounding board, finding alternative ways of
+                    thinking, removing self-imposed barriers, rationalising issues, making things easier,
+                    and removing feelings of being overwhelmed.
+                </p>
+                <h4 class="text-center">How many sessions are normally required?</h4>
+                <p>
+                    Everybody is different, and the topics being explored can vary from a single issue,
+                    to multiple conflicting issues. The client’s commitments, budget and preferences can also be a factor. 
+                    As a guide some clients will take part in 3-4 sessions while some prefer a weekly session repeated over 
+                    a longer period. There is no one size fits all; frequency will be discussed on an ongoing basis to suit 
+                    your evolving needs.
+                </p>
+                <h4 class="text-center">What to expect in a coaching session?</h4>
+                <p>
+                    Although I will be supportive and empathetic it is ultimately my responsibility to
+                    expose you to reality and encourage you to explore the aspects that are holding you
+                    back. I will ask difficult questions, but in a gentle manner. My goal is to help you
+                    explore yourself to the fullest so that you can get in touch with who you really are
+                    and what you really want. The first session is about you, your wants, and your
+                    needs.
+                </p>
             </div>
         </div>
     </section>
