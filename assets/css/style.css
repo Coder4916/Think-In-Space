@@ -87,7 +87,7 @@ body {
     padding: 0;
     height: auto;
     width: 100%;
-    background-color: #303333;
+    background-color: rgb(120, 120, 120);
 }
 
 .navbar ul {
@@ -99,7 +99,7 @@ body {
 }
 
 .hvr-shutter-out-horizontal {
-    background-color: #303333;
+    background-color: rgb(120, 120, 120);
     height: 70px;
 }
 
