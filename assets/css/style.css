@@ -10,12 +10,12 @@
 
 /*------------------------------------------------ Text Elements */
 
-h3 {
+h3, h4 {
     font-family: "Lexend", sans-serif;
     font-weight: 400;
     text-align: center;
     margin: auto;
-    padding: 30px;
+    padding: 20px;
     color: rgb(231, 223, 223);
 }
 
@@ -318,17 +318,15 @@ body {
 .form-container {
     margin: 0 auto;
     background-color: rgb(38, 162, 181, 0.2);
+    color: rgb(231, 223, 223);
     border: 5px solid #798383;
     border-radius: 5%;
 }
 
-.form legend {
-    margin: auto;
-}
-
 .contact-item {
     display: block;
-    max-width: 300px;
+    border-radius: 5%;
+    width: 75%;
     padding: 0;
     margin: 0 auto;
 }
@@ -356,6 +354,7 @@ body {
 #gmap-canvas iframe {
     width: 300px; 
     height: 300px;
+    border-radius: 5%;
 }
 
 /*------------------------------------------------ FAQs Section */
@@ -365,6 +364,10 @@ body {
     padding: 40px;
     width: 75%;
     background-color: rgb(120, 120, 120);
+}
+
+.faqs-container p {
+    padding: 20px;
 }
 
 /*------------------------------------------------ Footer */
