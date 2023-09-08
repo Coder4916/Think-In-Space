@@ -1,39 +1,89 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Think-In-Space.
 
-Welcome,
+##Table of Contents.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+##Introduction.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+The Think-In-Space Website was created alongside my friend, coach and mentor Elwyn Davies. It is a Life Coaching website designed to
+reach out to people seeking coaching, guidance or even referral.
 
-## Codeanywhere Reminders
+Elwyn had been planning to get help with creating a website to compliment his life coaching work, and to advertise his persona and
+skills to a wider audience. The Code Institute's first milestone project was the perfect opportunity to get the ball rolling.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+After several discussions and mind mapping ideas, a strategy was implemented. 
 
-`python3 -m http.server`
+The main requirements of this project were to build a responsive, static front end site, with the main principle of making 
+the website simple and easy to use.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+##UX Development.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### 1. Strategy Plane
 
-`http_server`
+UX research was carried out through discussion with: 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+*Elwyn Davies
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+*Previous clients.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*Friends and family.
 
-To log into the Heroku toolbelt CLI:
+*Work colleagues.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### User Stories
 
----
 
-Happy coding!
+#### * First Time User Goal
+
+
+i. As a first-time user, I want to be able to find the information I'm looking for quickly and easily.
+
+ii. As a first-time user, I want to be able to navigate the website with ease.
+
+iii. As a first-time user, I want to learn about the owner and find out about their previous qualifications/experience.
+
+iv. As a first-time user, I want to know what type of coaching services the owner/website offers.
+
+v. As a first-time user, I want to be able to locate the owners social media links to see their followings 
+and find any potential reviews etc.
+
+vi. As a first-time user, I want to have the option to contact the owner further if required.
+
+vii. As a first-time user, I want access to business owner operating times.
+
+
+#### * Returning User Goal
+
+
+i. As a returning user, I want to know if there's a FAQs page for any questions I may have.
+
+ii. As a returning user, I want access to different ways of contacting the user further if required.
+
+iii As a returning user, I want access to owner operating hours to book further coaching.
+
+
+#### * Frequent User Goal
+
+i. As a frequent user, I want to know if there will be chance to give feedback on the website.
+
+ii. As a frequent user, I want access to owner operating hours.
+
+
+
+
+
+
+
+
+
+1. What are you aiming to achieve and for whom (Organisation Goals User Goals User Interface,)
+
+2. Scope What information/features based on the strategy plane do you want to include in your design
+What's on the table for release and what's not.
+
+3. Structure, how is the info structured and logically grouped
+
+4. Skeleton How will information be represented and how will the user navigate to the info/features.
+
+5. Surface what will the finished product look like - colors typography and design elements.
+
