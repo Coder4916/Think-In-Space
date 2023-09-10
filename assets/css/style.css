@@ -401,5 +401,27 @@ body {
     font-weight: 200;
 }
 
+/*------------------------------------------------ Carousel */
+
+#carousel-section {
+    margin: auto;
+    padding: 40px;
+    width: 75%;
+    background-color: rgb(120, 120, 120);
+}
+
+.carousel-item {
+    position: relative;
+    text-align: center;
+    background-color: rgb(38, 162, 181, 0.3);
+    height: 30rem;
+}
+
+.carousel-review {
+    position: absolute;
+    margin: auto 0;
+    padding: 200px;
+}
+
 
 

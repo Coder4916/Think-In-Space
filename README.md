@@ -172,22 +172,54 @@ ADD LINKS
 ##5 Surface Plane
 
 Color Scheme
-The colors used are primarily derived from the logo provided by the website owner. To create a cohesive color scheme from beginning to end. I used Color Wheel and Colour Picker to identify complementary colours and wider colours palettes that would work on the website.
+The colors used are primarily derived from the logo provided by the website owner. To create a cohesive color scheme from beginning to end. I used Color Wheel, Colour Picker and Coolors to identify complementary colours and wider colours palettes that would work on the website.
 https://www.canva.com/colors/color-wheel/
 
+### Typography
+
+The fonts I used for the website were sourced from Google Fonts. Inc Roboto and Lexend. Lexend used for titles and Roboto for paragraphs/general text. Both fonts are recommended for use for people with dyslexia (Link). Fall back Sans Serif.
+
+### Imagery
+
+I have used a mix of online images/pexels and the coaches personal pictures of green space etc.
+
+Links to Pexels/Photographers
+
+(Find out where Blod got his pics.)
+
+## Features
+
+### Current Features:
+
+#### Header
+
+#### Navigation Bar
+
+#### About the Coach Section
+
+#### Background/Tried and Tested Sections
+
+#### Why Coaching Section
+
+#### What to Expect Section
+
+#### Reviews/Testimonials Section
+
+#### Contact/Find Me Sections
+
+#### Footer
 
 
+## Content to be added in the future
 
+????
 
+## Technologies Used
 
+### Coding Languages used:
 
+HTML5
+CSS3
+Javascript; JavaScript was used to implement functions that allowed the Hamburger menu in Navbar to close/collapse back after choosing, and to show a notification modal as a response after submitting a validated form, both were applied for a better UX.
 
-1. Scope What information/features based on the strategy plane do you want to include in your design
-What's on the table for release and what's not.
-
-1. Structure, how is the info structured and logically grouped
-
-2. Skeleton How will information be represented and how will the user navigate to the info/features.
-
-3. Surface what will the finished product look like - colors typography and design elements.
-
+### Frameworks, Libraries and Programs
