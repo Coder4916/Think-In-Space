@@ -30,50 +30,35 @@ li {
 
 /*------------------------------------------------ header */
 
-body {
-    background-image: url(../images/Pebbles.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: auto;
-    width: auto;
+#header {
+    margin: 0;
 }
 
-.title-container {
+.title-nav-container {
+    margin: 0;
+    padding: 0;
     background-color: #326771;
-    width: 100%;
-}
-
-.sub-title-container {
-    background-color: #326771;
-    width: 100%;
 }
 
 .coach-title {
-    margin: auto 0;
-    padding-top: 10px;
-    padding-left: 20px;
-    height: 75px;
+    margin: 0;
+    padding: 0;
     font-family: "Lexend" sans-serif;
     font-weight: 400;
     color: rgb(231, 223, 223);
 }
 
 .sub-title {
-    margin: auto 0;
-    padding-top: 15px;
-    padding-left: 20px;
-    height: 75px;
+    margin: 0;
+    padding: 0;
     font-family: "Roboto";
     font-weight: 400;
     color: rgb(231, 223, 223);
 }
 
 .logo {
-    height: 220px;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    height: 100%;
+    width: auto;
 }
 
 .list-inline-item:not(:last-child) {
@@ -83,7 +68,6 @@ body {
 .navbar {
     margin: 0;
     padding: 0;
-    height: auto;
     width: 100%;
     background-color: #2C8C99;
 }
@@ -98,7 +82,6 @@ body {
 
 .hvr-shutter-out-horizontal {
     background-color: #2C8C99;
-    height: 70px;
 }
 
 .hvr-shutter-out-horizontal:before {
@@ -119,6 +102,18 @@ body {
     display: block;
     font-size: 18px;
 }
+
+/*------------------------------------------------ Body Image*/
+
+body {
+    background-image: url(../images/Pebbles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+}
+
 
 /*------------------------------------------------ Coaching Page*/
 
@@ -345,7 +340,7 @@ body {
     margin: auto;
     padding: 40px;
     width: 75%;
-    background-color: #28464B;
+    background-color:#28464B;
 }
 
 .faqs-container p {
