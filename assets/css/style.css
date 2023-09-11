@@ -40,18 +40,33 @@ li {
     background-color: #326771;
 }
 
+.coach-title-container {
+    width: 100%;
+    margin: 0;
+}
+
+.coach-sub-title-container {
+    width: 100%;
+    margin: 0;
+}
+
 .coach-title {
     margin: 0;
-    padding: 0;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    padding-bottom: 2vw;
     font-family: "Lexend" sans-serif;
+    font-size: 7vw;
     font-weight: 400;
     color: rgb(231, 223, 223);
 }
 
 .sub-title {
     margin: 0;
-    padding: 0;
+    padding-left: 2vw;
+    padding-bottom: 1vw;
     font-family: "Roboto";
+    font-size: 5vw;
     font-weight: 400;
     color: rgb(231, 223, 223);
 }
