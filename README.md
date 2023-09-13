@@ -160,8 +160,9 @@ People interested in life coaching, looking to make a change
 ### vi Other Considerations
 
 Think-in-Space has a Business-To-Customer (B2C) product, in  an emerging but busy market, which has considerations as below:
-Calming and friendly presence
-Minimal, to the point content
+
+* Calming and friendly presence,
+* Minimal, to the point content.
 
 ### vii Strategy Table
 
@@ -189,23 +190,23 @@ INSERT SCATTER DIAGRAM
 
 Based on the mapping in Strategy Plane, I decided to include these contents below in the website:
 
-Coach Bio and background (Home)
-How Coaching works (Why Life Coaching & What to Expect)
-Contact form, contact details and map
-Frequently Asked Questions (FAQs)
-Location and approach (types of contact)
+* Coach Bio and background; Introduces the user to the coach.
+* How Coaching works; Will inform the user of what Life Coaching is, and whether it is the right choice for them.
+* Contact form; which will include a request for a coaching session or further information depending on what the user needs.
+* Frequently Asked Questions; which will further aid the user's decision based on the choice to try out Life Coaching.
+* Location and approach; A map will be included, as well as suggestions based on where coaching could take place.
 
-Functionality requirements:
+### Functionality requirements:
 
-The user should be able to navigate easily through the website to access all the contents via a Navigation Menu
-The user should have access to the owner's contact details as required
-The user will be able to access a series of testimonials via a user friendly carousel
+* The user should be able to navigate easily through the website to access all the contents via a Navigation Menu
+* The user should have access to the owner's contact details as required
+* The user will be able to access a series of testimonials via a user friendly carousel
 
 ## 3. Structure Plane
 
-UNDERSTAND THE TYPE OF SITE< - Articulate it> H or Non H?
+The website must have a simple structure with a user friendly navigation element to reach each category of information. The site will be broken down into sections, and organised so that the information tells a story, and leads the user to a contact page if they want to explore the subject further. The pages will have a consistent predictable template to help with usability and accessibility.
 
-## 4. Skeleton Plance
+## 4. Skeleton Plane
 
 Wireframes were created using Balsamiq to design the layout and interface of the website. The developer designed it with a good UI design in mind, which allows immediate interaction in first-time learning, and perfectly meets the needs of the intended audience.
 
@@ -224,7 +225,7 @@ The colors used are primarily derived from the logo provided by the website owne
 
 ### Typography
 
-The fonts I used for the website were sourced from Google Fonts. Inc Roboto and Lexend. Lexend used for titles and Roboto for paragraphs/general text. Both fonts are recommended for use for people with dyslexia [Tink 'n' Stink](https://www.tinknstink.co.uk/blogs/news/why-we-use-the-dyslexia-friendly-font-lexend). Fall back font Sans Serif.
+The fonts I used for the website were sourced from Google Fonts. Inc Roboto and Lexend. Lexend used for titles and Roboto for paragraphs/general text. Both fonts are recommended for use for people with dysleia [Tink 'n' Stink](https://www.tinknstink.co.uk/blogs/news/why-we-use-the-dyslexia-friendly-font-lexend). Fall back font Sans Serif.
 
 [Info on Roboto font](https://resources.mygov.scot/design-standards/design-essentials/typography/#:~:text=As%20a%20sans%2Dserif%20font,with%20dyslexia%20and%20visual%20impairment.)
 
@@ -244,17 +245,51 @@ Links to Pexels/Photographers
 
 ### Current Features
 
- Header
- Navigation Bar
- About the Coach Section
- Background/Tried and Tested Sections
- Why Coaching Section
- What to Expect Section
- Reviews/Testimonials Section
- Contact/Find Me Sections
- Footer
+#### i. Header
 
-## Content to be added in the future
+The header consists of a website logo which sits on the left hand side of the page, navigation bar and title. The nav-bar includes three nav links on the right hand side that link to each site page. The header occupies 100% width of the site.
+
+The navigation bar is fully responsive on all device sizes. On desktop view, the user can see all nav-links, while on a smaller device, these collapse to a hamburger menu.
+
+The Nav-links have a subtle hover state when the user hovers the over each link.
+
+### ii About the Coach Section
+
+The Coach section includes a brief precis of the Coach, introducing the Coach to the user.
+
+All sections are 75% width of the screen size and fully responsive on different sized devices.
+
+### iii Background/Tried and Tested Sections
+
+The Background and Tried and Tested sections include information about the Coach's life experience and qualifications, as well as how the Coach has already helped others.
+
+### iv Why Coaching Section
+
+The Why Coaching section informs the user about Life Coaching, to help the user decide whether this type of coaching is for them.
+
+### v What to Expect Section
+
+The What to Expect section details to the user what would normally be involved once they decide to book a coaching session.
+
+### vi Reviews/Testimonials Section
+
+The testimonials section includes a carousel which scrolls through several positive reviews recieved from previous clients.
+
+The carousel is fully responsive on all devices.
+
+### vii Contact/Find Me Sections
+
+The contact section is divided into two columns with the same height and width. One column contains a contact form while the other has a map and Coach contact details.
+
+### viii FAQs
+
+A frequently asked questions section is added to assist the user with any questions they may have about Life Coaching and the Coach.
+
+### ix Footer
+
+The Footer uses the same color as the Navigational Menu and provides the social media links of the Coach that all open in new tabs. The Footer also contains the site logo which takes the user back to the top of each site page.
+
+## Features to be added in the future
 
 time/date picker for sessions (Javascript)
 Feedback form, and url address
@@ -263,8 +298,45 @@ Feedback form, and url address
 
 ### Coding Languages used:
 
-HTML5
-CSS3
+HTML5 was used to create the front end framework of the website.
+
+CSS3 was used to design the layout and aesthetics of the website, including using effective typography and complimentary colors that would improve UX.
+
 Javascript; JavaScript was used to implement functions that allowed the Hamburger menu in Navbar to close/collapse back after choosing, and a carousel to display several testimonials. Both were applied for a better UX.
 
-### Frameworks, Libraries and Programs
+### Frameworks, Libraries and Programs Used
+
+Bootstrap 5.3
+Bootstrap was used to assist with the responsiveness and styling of the website.
+Google Fonts
+Google fonts was used to import the “Roboto”, “Lexend” fonts into the html file, and were used on all parts of the site.
+Font Awesome
+Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+Codeanywhere App
+The Codeanywhere IDE was used for creating the website and using the built in terminal to push the site to GitHub.
+GitHub
+GitHub was used to store the projects code after being pushed from Codeanywhere.
+Balsamiq
+Balsamiq was used to create the wireframes and the high fidelity mock up during the design process.
+
+Autoprefixer CSS
+Autoprefixer CSS was used to add vendor prefixes to the CSS rules, to ensure that they work across all browsers.
+
+Am I Responsive
+Am I Responsive was used to preview the website across a variety of popular devices.
+
+Tiny JPG
+Tiny JPG was used to reduce the file size of the images.
+
+Coolors
+Coolors was used to create a cohesive color scheme for the website.
+
+## Issues and Bugs
+
+Understanding Bootstrap 5, and making sure I was aware of updates. Eg. the class "no gutters", to remove automatic padding that Bootstrap provides with rows and columns, became the class "g-0".
+
+## Deployment
+
+The Website was developed using Codeanywhere as the IDE, commited to Git as a local repository and finally pushed to GitHub.
+
+### Deployment to GitHub Pages
