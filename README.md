@@ -335,6 +335,10 @@ Coolors was used to create a cohesive color scheme for the website.
 
 Understanding Bootstrap 5, and making sure I was aware of updates. Eg. the class "no gutters", to remove automatic padding that Bootstrap provides with rows and columns, became the class "g-0".
 
+Ports not working/updating several times on Codeanywhere IDE. I regularly had to change the Port address/reset to make the updates to the site work, so I could see my progress.
+
+I had a few issues when trying to make the NavBar responsive, but also found that this could be done via a Bootstrap 5 class.
+
 ## Deployment
 
 The Website was developed using Codeanywhere as the IDE, commited to Git as a local repository and finally pushed to GitHub.
