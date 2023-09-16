@@ -274,6 +274,15 @@ body {
     border-radius: 5%; 
 }
 
+@keyframes image-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
 /*------------------------------------------------ Carousel/Testimonials Section */
 
 #carousel-section {
@@ -362,8 +371,13 @@ body {
     padding: 20px;
 }
 
-/*------------------------------------------------ Footer */
+.back-to-top-btn {
+    color: rgb(231, 223, 223);
+    right: 20px;
+    bottom: 20px;
+}
 
+/*------------------------------------------------ Footer */
 
 #footer {
     margin: 0;
@@ -400,3 +414,5 @@ body {
     font-family: "Roboto";
     font-weight: 200;
 }
+
+/*------------------------------------------------ Media Queries */
