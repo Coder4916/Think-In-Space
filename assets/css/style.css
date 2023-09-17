@@ -71,7 +71,7 @@ li {
     color: rgb(231, 223, 223);
 }
 
-.logo {
+.header-logo {
     height: 100%;
     width: auto;
 }
@@ -110,7 +110,7 @@ li {
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Roboto";
-    color: #fddd72;
+    color: rgb(231, 223, 223);
 }
 
 .nav-item a i {
@@ -121,12 +121,9 @@ li {
 /*------------------------------------------------ Body Image*/
 
 body {
-    background-image: url(../images/Pebbles.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../images/pebbles.jpg);
+    background-size: contain;
     background-position: center;
-    height: auto;
-    width: auto;
 }
 
 
@@ -274,15 +271,6 @@ body {
     border-radius: 5%; 
 }
 
-@keyframes image-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.2);
-    }
-}
-
 /*------------------------------------------------ Carousel/Testimonials Section */
 
 #carousel-section {
@@ -326,7 +314,6 @@ body {
 
 .contact-item {
     display: block;
-    border-radius: 5%;
     width: 75%;
     padding: 0;
     margin: 0 auto;
@@ -358,6 +345,21 @@ body {
     border-radius: 5%;
 }
 
+/*------------------------------------------------ Gallery Section */
+
+#gallery-section {
+    margin: auto;
+    padding: 40px;
+    width: 75%;
+    background-color: #28464B;
+    column-count: 2;
+}
+
+#gallery-section img {
+    width: auto;
+    height: 34vw;
+}
+
 /*------------------------------------------------ FAQs Section */
 
 #faqs-section {
@@ -373,8 +375,8 @@ body {
 
 .back-to-top-btn {
     color: rgb(231, 223, 223);
-    right: 20px;
-    bottom: 20px;
+    padding: 3vw;
+    margin: auto;
 }
 
 /*------------------------------------------------ Footer */
@@ -382,37 +384,35 @@ body {
 #footer {
     margin: 0;
     bottom: 0;
-    min-height: 200px;
     text-align: center;
     background-color: #2C8C99;
 }
 
-.footer-menu {
-    padding-top: 25px;
-}
-
-.footer-item {
-    margin: 0;
-}
-
 #footer a {
-    color: #fddd72;
+    color: rgb(231, 223, 223);
     font-family: "Roboto";
     font-size: large;
     text-decoration: none;
-    padding: 15px;
 }
 
-.footer-contact {
-    color: #fddd72;
-    font-family: "Roboto";
-    padding: 15px;
+.footer-logo {
+    width: 10vw;
+    height: auto;
+    margin: auto;
+}
+
+.footer-menu {
+    padding-top: 40px;
 }
 
 .footer-copyright {
-    color: #fddd72;
+    color: rgb(231, 223, 223);
     font-family: "Roboto";
     font-weight: 200;
+    padding: 40px;
 }
 
 /*------------------------------------------------ Media Queries */
+
+/*------------------------------------------------ Learn more page */
+
