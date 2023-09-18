@@ -114,8 +114,11 @@ li {
 }
 
 .nav-item a i {
-    display: block;
     font-size: 18px;
+}
+
+.active {
+    background-color: rgb(231, 223, 223, 0.2);
 }
 
 /*------------------------------------------------ Body Image*/
@@ -136,14 +139,14 @@ body {
 #coach-section {
     position: relative;
     margin: auto;
-    padding: 40px;
+    padding: 3vw;
     width: 75%;
     background-color: #28464B;
 }
 
 .coach-info {
     margin: auto;
-    padding: 20px;
+    padding: 1vw;
 }
 
 .coach-image {
@@ -152,9 +155,9 @@ body {
 
 .coach-image img {
     height: auto;
-    width: 100%;
-    border: solid #798383 5px;
-    border-radius: 5%;
+    width: 20vw;
+    border: solid #798383 3px;
+    border-radius: 10%;
 }
 
 /*------------------------------------------------ Background Section*/
@@ -162,14 +165,14 @@ body {
 #background-section {
     position: relative;
     margin: auto;
-    padding: 40px;
+    padding: 3vw;
     width: 75%;
     background-color: #28464B;
 }
 
 .background-info {
     margin: auto;
-    padding: 20px;
+    padding: 1vw;
 }
 
 .background-image {
@@ -177,11 +180,10 @@ body {
 }
 
 .background-image img{
-    margin: 0;
     height: auto;
-    width: 100%;
-    border: solid #798383 5px;
-    border-radius: 5%;
+    width: 20vw;
+    border: solid #798383 3px;
+    border-radius: 10%;
 }
 
 /*------------------------------------------------ Tried And Tested Section*/
@@ -189,14 +191,14 @@ body {
 #tried-and-tested-section {
     position: relative;
     margin: auto;
-    padding: 40px;
+    padding: 3vw;
     width: 75%;
     background-color: #28464B;
 }
 
 .tried-and-tested-info {
     margin: auto;
-    padding: 20px;
+    padding: 1vw;
 }
 
 .tried-and-tested-image {
@@ -204,11 +206,10 @@ body {
 }
 
 .tried-and-tested-image img {
-    margin: 0;
     height: auto;
-    width: 100%;
+    width: 20vw;
     border: solid #798383 5px;
-    border-radius: 5%;
+    border-radius: 10%;
 }
 
 /*------------------------------------------------ Coaching Page */
@@ -218,14 +219,14 @@ body {
 #why-life-coaching-section {
     position: relative;
     margin: auto;
-    padding: 40px;
+    padding: 3vw;
     width: 75%;
     background-color: #28464B;
 }
 
 .why-life-coaching {
     margin: auto;
-    padding: 20px;
+    padding: 1vw;
 }
 
 .why-life-coaching-image {
@@ -233,11 +234,10 @@ body {
 }
 
 .why-life-coaching-image img{
-    margin: 0;
     height: auto;
-    width: 100%;
+    width: 20vw;
     border: solid #798383 5px;
-    border-radius: 5%; 
+    border-radius: 10%; 
 }
 
 /*------------------------------------------------ What To Expect Section*/
@@ -245,14 +245,14 @@ body {
 #what-to-expect-section {
     position: relative;
     margin: auto;
-    padding: 40px;
+    padding: 3vw;
     width: 75%;
     background-color: #28464B;
 }
 
 .what-to-expect {
     margin: auto;
-    padding: 20px;
+    padding: 1vw;
 }
 
 .what-to-expect li {
@@ -266,18 +266,18 @@ body {
 }
 
 .what-to-expect-image img {
-    margin: auto;
-    height: auto;
-    width: 100%;
-    border: solid #798383 5px;
-    border-radius: 5%; 
+    height: 10vw;
+    width: auto;
+    column-count: 2;
+    border-radius: 20%;
+    padding: 0.5vw;
 }
 
 /*------------------------------------------------ Carousel/Testimonials Section */
 
 #carousel-section {
     margin: auto;
-    padding: 40px;
+    padding: 3vw;
     width: 75%;
     background-color: #28464B;
 }
@@ -287,12 +287,13 @@ body {
     text-align: center;
     background-color: rgb(38, 162, 181, 0.3);
     height: 30rem;
+    border-radius: 3%;
 }
 
 .carousel-review {
     position: absolute;
     margin: auto 0;
-    padding: 200px;
+    padding: 15vw;
 }
 
 /*------------------------------------------------ Contact Page */
@@ -347,21 +348,6 @@ body {
     border-radius: 5%;
 }
 
-/*------------------------------------------------ Gallery Section */
-
-#gallery-section {
-    margin: auto;
-    padding: 40px;
-    width: 75%;
-    background-color: #28464B;
-    column-count: 2;
-}
-
-#gallery-section img {
-    width: auto;
-    height: 34vw;
-}
-
 /*------------------------------------------------ FAQs Section */
 
 #faqs-section {
@@ -380,7 +366,7 @@ body {
 .back-to-top-btn {
     color: rgb(231, 223, 223);
     padding: 2vw;
-    background-color: rgb(38, 162, 181, 0.3);
+    background-color: rgb(38, 162, 181, 0.4);
     width: 12vw;
     position: fixed;
     bottom: 0;
