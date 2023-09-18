@@ -126,9 +126,10 @@ li {
 body {
     background-image: url(../images/pebbles.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-color: #326771;
+    width: 100%;
 }
 
 
