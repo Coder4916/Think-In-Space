@@ -122,8 +122,10 @@ li {
 
 body {
     background-image: url(../images/pebbles.jpg);
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    background-color: #326771;
 }
 
 
@@ -373,10 +375,16 @@ body {
     padding: 20px;
 }
 
+/*------------------------------------------------ Back to top Btn */
+
 .back-to-top-btn {
     color: rgb(231, 223, 223);
-    padding: 3vw;
-    margin: auto;
+    padding: 2vw;
+    background-color: rgb(38, 162, 181, 0.3);
+    width: 12vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 /*------------------------------------------------ Footer */
