@@ -1,63 +1,54 @@
-# Think-In-Space
+# **Think-In-Space**
 
-## Table of Contents
+## **Table of Contents**
 
-1. [Introduction](#introduction)
+- [**Think-In-Space**](#think-in-space)
+  - [**Table of Contents**](#table-of-contents)
+  - [**Introduction**](#introduction)
+  - [**UX Development**](#ux-development)
+    - [**1. Strategy Plane**](#1-strategy-plane)
+    - [**User Stories**](#user-stories)
+      - [\* **First Time User Goal**](#-first-time-user-goal)
+      - [\* **Returning User Goal**](#-returning-user-goal)
+      - [\* **Frequent User Goal**](#-frequent-user-goal)
+    - [**Research**](#research)
+    - [**Project Goals**](#project-goals)
+    - [**User Goals**](#user-goals)
+    - [**Business Goals**](#business-goals)
+    - [**Other Considerations**](#other-considerations)
+    - [**Strategy Table**](#strategy-table)
+    - [2. **Scope Plane**](#2-scope-plane)
+    - [3. **Structure Plane**](#3-structure-plane)
+    - [4. **Skeleton Plane**](#4-skeleton-plane)
+    - [5. **Surface Plane**](#5-surface-plane)
+      - [**Color Scheme**](#color-scheme)
+      - [**Typography**](#typography)
+      - [**Imagery**](#imagery)
+  - [**Features**](#features)
+    - [**Current Features**](#current-features)
+      - [1. **Header**](#1-header)
+      - [2. **About me page**](#2-about-me-page)
+      - [3. **Coaching Page**](#3-coaching-page)
+      - [4. **Contact Page**](#4-contact-page)
+      - [5. **Footer**](#5-footer)
+      - [6. **Learn more Page**](#6-learn-more-page)
+    - [**Features to be added in the future**](#features-to-be-added-in-the-future)
+  - [**Technologies Used**](#technologies-used)
+    - [**Main Languages used**](#main-languages-used)
+    - [**Additional Languages Used**](#additional-languages-used)
+    - [**Frameworks, Libraries and Programs Used**](#frameworks-libraries-and-programs-used)
+  - [**Issues and Bugs**](#issues-and-bugs)
+  - [**Deployment**](#deployment)
+    - [**Deployment to GitHub Pages**](#deployment-to-github-pages)
+    - [**Forking the Github Repository**](#forking-the-github-repository)
+    - [**Making a Local Clone**](#making-a-local-clone)
+  - [**Testing**](#testing)
+  - [**Credits**](#credits)
+    - [**Code**](#code)
+    - [**Images**](#images)
+  - [**Acknowledgements**](#acknowledgements)
 
-2. [UX Development](#ux-development)
->>>>i. [Strategy Plane](#1-strategy-plane)
->>>>>>[User Stories](#user-stories)\
-[Research](#research)\
-[Project Goals](#project-goals)\
-[User Goals](#user-goals)\
-[Business Goals](#business-goals)\
-[Other Considerations](#other-considerations)\
-[Strategy Table](#strategy-table)
-
->>>>ii. [Scope Plane](#2-scope-plane)
-
-iii. [Structure Plane](#3-structure-plane)
-
-iv. [4. Skeleton Plane / Wireframes](#4-skeleton-plane)
-
-v. [5. Surface Plane / High Fidelity Mock Up](#5-surface-plane)
-<br/>
-   -[Color Scheme](#color-scheme)
-   -[Typography](#typography)
-   -[Imagery](#imagery)
-
-[Features](#features)
-
-   [i. Current Features](#current-features)
-   [ii. Features To Be Added In The Future](#features-to-be-added-in-the-future)
-
-[Technology Used](#technologies-used)
-
-    [i. Main Languages Used](#main-languages-used)
-    [ii.Additional Languages Used](#additional-languages-used)
-    [iii. Frameworks, Libraries, and Programs Used](#frameworks-libraries-and-programs-used)
-
-[Issues and Bugs](#issues-and-bugs)
-
-[Deployment](#deployment)
-
-    [i. Deploy to Github](#deployment-to-github-pages)
-    [ii. Forking to Github Repository]()
-    [iii. Making a Local Clone]()
-
-[Testing] 
-
-    [i. Go to TESTING.md]
-
-[Credits] 
-
-    [i. Code] 
-    [ii. Images] 
-    [iii. Contents]
-
-[Acknowledgements]
-
-## Introduction
+## **Introduction**
 
 The Think-In-Space Website was created alongside my friend, coach and mentor Elwyn Davies. It is a Life Coaching website designed to reach out to people seeking coaching, guidance or even referral.
 
@@ -67,9 +58,9 @@ After several discussions and mind mapping ideas, a strategy was implemented.
 
 The main requirement of this project is to build a responsive, static front end site, with the main principle of making the website simple and easy to use.
 
-## UX Development
+## **UX Development**
 
-### 1. Strategy Plane
+### **1. Strategy Plane**
 
 UX research was carried out through discussion with:
 
@@ -78,42 +69,42 @@ UX research was carried out through discussion with:
 * Friends and family
 * Work colleagues
 
-### User Stories
+### **User Stories**
 
-#### * First Time User Goal
+#### * **First Time User Goal**
+
+&nbsp;&nbsp;&nbsp;&nbsp;i. As a first-time user, I want to be able to find the information I'm looking for quickly and easily and be able to navigate the website with ease.\
+&nbsp;&nbsp;&nbsp;&nbsp;ii. As a first-time user, I want to learn about the owner and find out about their previous qualifications/experience.\
+&nbsp;&nbsp;&nbsp;&nbsp;iii. As a first-time user, I want to know what type of coaching services the owner/website offers.\
+&nbsp;&nbsp;&nbsp;&nbsp;iv. As a first-time user, I want to be able to locate the owners social media links to see their followings and find any potential reviews etc.\
+&nbsp;&nbsp;&nbsp;&nbsp;v. As a first-time user, I want to have the option to contact the owner further if required.\
+&nbsp;&nbsp;&nbsp;&nbsp;vi. As a first-time user, I want access to business owner operating times.
+
+#### * **Returning User Goal**
   
-    i. As a first-time user, I want to be able to find the information I'm looking for quickly and easily and be able to navigate the website with ease.
-    ii. As a first-time user, I want to learn about the owner and find out about their previous qualifications/experience.
-    iii. As a first-time user, I want to know what type of coaching services the owner/website offers.
-    iv. As a first-time user, I want to be able to locate the owners social media links to see their followings and find any potential reviews etc.
-    v. As a first-time user, I want to have the option to contact the owner further if required.
-    vi. As a first-time user, I want access to business owner operating times.
+&nbsp;&nbsp;&nbsp;&nbsp; i. As a returning user, I want to know if   there's a FAQs page for any questions I may have.
+&nbsp;&nbsp;&nbsp;&nbsp;ii. As a returning user, I want access to different ways of contacting the user further if required.
+&nbsp;&nbsp;&nbsp;&nbsp;iii. As a returning user, I want access to owner operating hours to book further coaching.
+&nbsp;&nbsp;&nbsp;&nbsp;iv. As a returning user I want to easily access further information as required.
 
-#### * Returning User Goal
+#### * **Frequent User Goal**
   
-    i. As a returning user, I want to know if there's a FAQs page for any questions I may have.
-    ii. As a returning user, I want access to different ways of contacting the user further if required.
-    iii. As a returning user, I want access to owner operating hours to book further coaching.
-    iv. As a returning user I want to easily access further information as required.
+&nbsp;&nbsp;&nbsp;&nbsp;i. As a frequent user, I want to know if there will be chance to give feedback on the website.
+&nbsp;&nbsp;&nbsp;&nbsp;ii. As a frequent user, I want access to owner operating hours.
+&nbsp;&nbsp;&nbsp;&nbsp;iii. As a frequent user I want to access information easily.
+&nbsp;&nbsp;&nbsp;&nbsp;iv. As a frequent user I want to be able to contact the owner easily.
 
-#### * Frequent User Goal
-  
-    i. As a frequent user, I want to know if there will be chance to give feedback on the website.
-    ii. As a frequent user, I want access to owner operating hours.
-    iii. As a frequent user I want to access information easily.
-    iv. As a frequent user I want to be able to contact the owner easily.
+### **Research**
 
-### Research
-
-i. Interviews with website owner
+* Interviews with website owner
 
 Numerous discussions with the website owner to understand their wants and needs from the website. Discussed strategy, functionality, theme and 'feeling'. As part of this, obtained photographs and soundbites to aid with the website design. Owner shared existing logo in order to guide the theme across the pages.
 
-ii. Competitor research
+* Competitor research
 
 Researched other coaching websites avaialable online. This aided me to understand what is feasible, what looks good in this sector and how other coaches present themselves. This reasearch led me to suggest the owner drop the initially suggested 'Unconventional Coach' name, as there are many other more 'unconventional' methods in comparison to his offering. The research led me to conclude that in this case, 'unconventional' wasn't appropriate and wouldn't add value.
 
-iii. Sector Research
+* Sector Research
 
 I researched articles and sites that focused on life coaching, which helped to guide me on the best approaches, taglines and language for the sector.
 
@@ -129,11 +120,11 @@ Examples of sites I reviewed to bolster my research:
 
 [6 best website builders for Life Coaches](https://www.websiteplanet.com/blog/best-website-builders-for-life-coaches/?cq_src=google_ads&cq_cmp=11118429292&cq_term=&cq_plac=&cq_net=g&cq_plt=gp&gclid=Cj0KCQjw_5unBhCMARIsACZyzS2Bhh3MQ7QewK3UK3YkML_UYDLsx-kCgIStd0Xwz-qnJVSeyeP-mhoaAruPEALw_wcB)
 
-### Project Goals
+### **Project Goals**
 
-The project goal is to provide an informational and promotional website for a Life Coaching Website 'Think-in-Space'. This site will make it easy for customers looking for life coaching to determine whether this is the right route and approach for them, and enable them to start the journey.
+The project goal is to provide an informational and promotional life coaching website 'Think-in-Space'. This site will make it easy for customers looking for life coaching to determine whether this is the right route and approach for them, and enable them to start the journey.
 
-### User Goals
+### **User Goals**
 
 The target audience for this website is varied, as life coaching is available to all. The key thing is to enable those that are in need to find this coach, and make contact. Location is not important as the services are available remotely as well as face to face.
 
@@ -144,7 +135,7 @@ Specifically:
 
 The user goal when using this website is to get comprehensive information about 'Think-in-Space' and enable them to make contact with the Coach to begin a coaching programme.
 
-### Business Goals
+### **Business Goals**
 
 * The life coaching sector is busy and has wide-ranging offerings. As such, the website must make it clear the style of coaching offered, and help the user to make the right decision for them.
 
@@ -159,7 +150,7 @@ The business goals of this site are:
 
 [Back to top](#think-in-space)
 
-### Other Considerations
+### **Other Considerations**
 
 Think-in-Space has a Business-To-Customer (B2C) product, in an emerging but busy market, which has considerations as below:
 
@@ -167,7 +158,7 @@ Think-in-Space has a Business-To-Customer (B2C) product, in an emerging but busy
 * Minimal, to the point content
 * The design stands out amongst competitors
 
-### Strategy Table
+### **Strategy Table**
 
 Based on these research, goals, and the considerations above, I considered what should be implemented on the website. I mapped the ideas based on their importance (driven by business goals and user needs), and viability (given limited time and resources), to determine which ideas were going to be included and which were not:
 
@@ -191,7 +182,7 @@ The chart below is the mapping of all of the opportunities. The yellow circle si
 
 [Back to top](#think-in-space)
 
-### 2. Scope Plane
+### 2. **Scope Plane**
 
 Based on the mapping in Strategy Plane, I decided to include these contents below in the website:
 
@@ -205,13 +196,13 @@ The user should be able to navigate easily through the website to access all the
 * The user should have access to the owner's contact details as required
 * The user will be able to access a series of testimonials via a user friendly carousel
 
-### 3. Structure Plane
+### 3. **Structure Plane**
 
 The website must have a simple structure with a user friendly navigation element to reach each page of information.Each site page will be broken down into sections, and organised so that the information tells a story, and leads the user to a contact page if they want to explore the subject further. The pages will have a consistent predictable template to help with usability and accessibility.
 
 [Back to top](#think-in-space)
 
-### 4. Skeleton Plane
+### 4. **Skeleton Plane**
 
 Wireframes were created using Balsamiq to design the layout and interface of the website. The developer designed it with a good UI design in mind, which allows immediate interaction in first-time learning, and perfectly meets the needs of the intended audience.
 
@@ -221,9 +212,9 @@ The wireframes can be found below:
 []
 []
 
-### 5. Surface Plane
+### 5. **Surface Plane**
 
-#### Color Scheme
+#### **Color Scheme**
 
 The colors used are primarily derived from the logo provided by the website owner. To create a cohesive color scheme from beginning to end. I used Color Wheel, Colour Picker and Coolors to identify complementary colours and wider colours palettes that would work on the website.
 
@@ -233,7 +224,7 @@ The colors used are primarily derived from the logo provided by the website owne
 
 [Coolers](https://coolors.co/)
 
-#### Typography
+#### **Typography**
 
 The fonts I used for the website were sourced from Google Fonts. Inc Roboto and Lexend. Lexend used for titles and Roboto for paragraphs/general text. Both fonts are recommended for use for people with dysleia Tink 'n' Stink. Fall back font Sans Serif.
 
@@ -241,7 +232,7 @@ The fonts I used for the website were sourced from Google Fonts. Inc Roboto and 
 
 [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto)
 
-#### Imagery
+#### **Imagery**
 
 I have utilised a mix of free to use images sourced online, and the Coach's personal pictures of local green space/blue space etc.
 
@@ -249,15 +240,17 @@ I used the following image for the background of each site page:
 
 [Pexels image by Ave Calvar Martinez](https://www.pexels.com/photo/close-up-photo-of-pebbles-3010168/)
 
+The following images I used to populate each page section:
+
 []
 
 [Back to top](#think-in-space)
 
-### Features
+## **Features**
 
-#### Current Features
+### **Current Features**
 
-##### 1. Header
+#### 1. **Header**
 
 * The header consists of a website logo which sits on the left hand side of the page, navigation bar and title. The nav-bar includes three nav-links on the right hand side that link to each site page. The header occupies 100% width of the site.
 
@@ -265,13 +258,13 @@ I used the following image for the background of each site page:
 
 * The Nav-links have a subtle hover state when the user hovers over each link.
 
-##### 2. About me page
+#### 2. **About me page**
 
 * The About me page includes three sections which give a brief introduction of the Coach;
 
 * The Coach, Background and Tried and Tested sections include information about the Coach's life experience and qualifications, as well as how the Coach has already helped others.
 
-##### 3. Coaching Page
+#### 3. **Coaching Page**
 
 * The Coaching Page includes three sections which inform the user about Life Coaching;
 
@@ -279,7 +272,7 @@ I used the following image for the background of each site page:
 
 * A carousel has been added to display coaching reviews and is fully responsive on all devices.
 
-##### 4. Contact Page
+#### 4. **Contact Page**
 
 * The Contact Page is divided into three sections, which allows the user to contact the Coach or book a session;
 
@@ -287,15 +280,15 @@ I used the following image for the background of each site page:
 
 * All sections are 75% width of the screen size and fully responsive on different sized devices.
 
-##### 5. Footer
+#### 5. **Footer**
 
 The Footer uses the same color as the Navigational Menu and provides social media links that all open in new tabs. The Footer also contains the site logo which takes the user back to the About Me Page.
 
-##### 6. Learn more Page
+#### 6. **Learn more Page**
 
-A Learn More link was added to the Footer, which gives the user access to a list of educatiuonal links to external sites. This give the user the opportunity to find out more about Life Coaching and associated subjects.
+A Learn More link was added to the Footer, which gives the user access to a list of educational links to external sites. This give the user the opportunity to find out more about Life Coaching and associated subjects.
 
-### Features to be added in the future
+### **Features to be added in the future**
 
 These features will be added where possible during further development phases:
 
@@ -309,19 +302,19 @@ These features will be added where possible during further development phases:
 
 [Back to top](#think-in-space)
 
-### Technologies Used
+## **Technologies Used**
 
-#### Main Languages used
+### **Main Languages used**
 
 [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to create the front end framework of the website.
 
 [CSS3](https://en.wikipedia.org/wiki/CSS) was used to design the layout and aesthetics of the website, including using effective typography and complimentary colors that would improve UX.
 
-#### Additional Languages Used
+### **Additional Languages Used**
 
 [Javascript](https://en.wikipedia.org/wiki/JavaScript) was used to implement functions that allowed the Hamburger menu in Navbar, and a carousel to display several testimonials. Both were applied for a better UX.
 
-### Frameworks, Libraries and Programs Used
+### **Frameworks, Libraries and Programs Used**
 
 1. [Bootstrap 5.3](https://getbootstrap.com/) was used to assist with the responsiveness and styling of the website.
 
@@ -345,7 +338,7 @@ These features will be added where possible during further development phases:
 
 [Back to top](#think-in-space)
 
-### Issues and Bugs
+## **Issues and Bugs**
 
 * Issue: Understanding Bootstrap 5, and being aware of updates. Eg. the class ".no gutters", to remove automatic padding that Bootstrap provides with .div rows and columns, became the class ".g-0".
 
@@ -357,8 +350,71 @@ These features will be added where possible during further development phases:
 
 * Issue/Bug: README.md automatically began deleting itself while updating, when laptop was plugged into a smart tv. README.md had to be re-written.
 
-### Deployment
+## **Deployment**
 
-The Website was developed using Codeanywhere as the IDE, commited to Git as a local repository and finally pushed to GitHub.
+The Website was developed using Codeanywhere as the IDE, commited to Git as a local repository and finally pushed/stored to GitHub.
 
-### Deployment to GitHub Pages
+### **Deployment to GitHub Pages**
+
+The website was deployed to Github pages using the following steps:
+
+1. Log in to GitHub.
+2. Navigate to the main page of GitHub Repository that will be deployed.
+3. At the top of the Repository, locate the "Settings" button on the menu and click it.
+4. Inside the Settings, on the left side of the page, there’s a list of tab menu. Locate the “Pages” tab, and click it.
+5. Under "Source", click the dropdown called "None", select "Master", and then click the “Save” button.
+6. The page will automatically refresh.
+7. There’s a notification message that provides the now published site link:
+
+### **Forking the Github Repository**
+
+By forking the GitHub repository you can make a copy of the original repository on your GitHub account to view and/or make changes without affecting the original repository, by using the following steps:
+
+1. Log in to GitHub.
+2. Navigate to the main page of the GitHub Repository that you want to fork.
+3. At the top right of the Repository just below your profile picture, locate the "Fork" Button.
+4. You should now have a copy of the original repository in your GitHub account.  
+
+Changes made to the forked repository can be merged with the original repository via a pull request.
+
+### **Making a Local Clone**
+
+By cloning a GitHub Repository you can create a local copy on your computer of the remote repository. This allows you to make all of your edits locally rather than directly in the source files of the origin repository, by using the following steps:
+
+1. Log in to GitHub.
+2. Navigate to the main page of the GitHub Repository that you want to clone.
+3. Above the list of files, click the dropdown called "Code".
+4. To clone the repository using HTTPS, under "HTTPS", copy the link.
+5. Open Git Bash.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Type git clone, and then paste the URL you copied in Step 4.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+1. Press Enter. Your local clone will be created.
+
+[Back to top](#think-in-space)
+
+## **Testing**
+
+## **Credits**
+
+### **Code**
+
+1. Bootstrap 5.3: Bootstrap was used extensively throughout the project, including the following components:
+
+* Collapsible Navigation Bar:
+* Carousel:
+* Grid System:
+
+### **Images**
+
+* The Logo was created
+
+## **Acknowledgements**
+
+* My mentor, Oluwaseun Owonikoko, for the helpful feedback on all aspects of the Website.
+* My friend and mentor Elwyn Davies, for the site features and his continued support throughout as well as his insight into the coaching world.
+* My wife Beth for her constant support, and for proof reading and testing my site material.
+
+[Back to top](#think-in-space)
