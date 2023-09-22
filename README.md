@@ -28,13 +28,15 @@
 
 [Features](#features)
 
-[i. Existing Features] 
-[ii. Features to be Implemented in The Future]
+[i. Current Features](#current-features)
 
-[Technology Used] 
+[ii. Features To Be Added In The Future](#features-to-be-added-in-the-future)
 
-[i. Main and Additional Languanges] 
-[ii. Frameworks, Libraries, & Programs Used]
+[Technology Used](#technologies-used)
+
+[i. Main Languages Used](#main-languages-used)
+[ii.Additional Languages Used](#additional-languages-used)
+[iii. Frameworks, Libraries, and Programs Used](#frameworks-libraries-and-programs-used)
 
 [Issues and Bugs]
 
