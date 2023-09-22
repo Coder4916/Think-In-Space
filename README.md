@@ -2,59 +2,58 @@
 
 ## Table of Contents
 
-[Introduction](#introduction)
+1. [Introduction](#introduction)
 
-[UX Development](#ux-development)
+2. [UX Development](#ux-development)
+>>>>i. [Strategy Plane](#1-strategy-plane)
+>>>>>>[User Stories](#user-stories)\
+[Research](#research)\
+[Project Goals](#project-goals)\
+[User Goals](#user-goals)\
+[Business Goals](#business-goals)\
+[Other Considerations](#other-considerations)\
+[Strategy Table](#strategy-table)
 
-[1. Strategy Plane](#1-strategy-plane)
-    [i User Stories](#user-stories)
-    [ii Research](#research)
-    [iii Project Goals](#project-goals)
-    [iv User Goals](#user-goals)
-    [v Business Goals](#business-goals)
-    [vi Other Considerations](#other-considerations)
-    [vii Strategy Table](#strategy-table)
+>>>>ii. [Scope Plane](#2-scope-plane)
 
-[2. Scope Plane](#2-scope-plane)
+iii. [Structure Plane](#3-structure-plane)
 
-[3. Structure Plane](#3-structure-plane)
+iv. [4. Skeleton Plane / Wireframes](#4-skeleton-plane)
 
-[4. Skeleton Plane / Wireframes](#4-skeleton-plane)
-
-[5. Surface Plane / High Fidelity Mock Up](#5-surface-plane)
-    [- Color Scheme](#color-scheme)
-    [- Typography](#typography)
-    [- Imagery](#imagery)
+v. [5. Surface Plane / High Fidelity Mock Up](#5-surface-plane)
+<br/>
+   -[Color Scheme](#color-scheme)
+   -[Typography](#typography)
+   -[Imagery](#imagery)
 
 [Features](#features)
 
-[i. Current Features](#current-features)
-
-[ii. Features To Be Added In The Future](#features-to-be-added-in-the-future)
+   [i. Current Features](#current-features)
+   [ii. Features To Be Added In The Future](#features-to-be-added-in-the-future)
 
 [Technology Used](#technologies-used)
 
-[i. Main Languages Used](#main-languages-used)
-[ii.Additional Languages Used](#additional-languages-used)
-[iii. Frameworks, Libraries, and Programs Used](#frameworks-libraries-and-programs-used)
+    [i. Main Languages Used](#main-languages-used)
+    [ii.Additional Languages Used](#additional-languages-used)
+    [iii. Frameworks, Libraries, and Programs Used](#frameworks-libraries-and-programs-used)
 
-[Issues and Bugs]
+[Issues and Bugs](#issues-and-bugs)
 
-[Deployment] 
+[Deployment](#deployment)
 
-[i. Deploy to Github] 
-[ii. Forking to Github Repository] 
-[iii. Making a Local Clone]
+    [i. Deploy to Github](#deployment-to-github-pages)
+    [ii. Forking to Github Repository]()
+    [iii. Making a Local Clone]()
 
 [Testing] 
 
-[i. Go to TESTING.md]
+    [i. Go to TESTING.md]
 
 [Credits] 
 
-[i. Code] 
-[ii. Images] 
-[iii. Contents]
+    [i. Code] 
+    [ii. Images] 
+    [iii. Contents]
 
 [Acknowledgements]
 
@@ -83,26 +82,26 @@ UX research was carried out through discussion with:
 
 #### * First Time User Goal
   
-i. As a first-time user, I want to be able to find the information I'm looking for quickly and easily and be able to navigate the website with ease.
-ii. As a first-time user, I want to learn about the owner and find out about their previous qualifications/experience.
-iii. As a first-time user, I want to know what type of coaching services the owner/website offers.
-iv. As a first-time user, I want to be able to locate the owners social media links to see their followings and find any potential reviews etc.
-v. As a first-time user, I want to have the option to contact the owner further if required.
-vi. As a first-time user, I want access to business owner operating times.
+    i. As a first-time user, I want to be able to find the information I'm looking for quickly and easily and be able to navigate the website with ease.
+    ii. As a first-time user, I want to learn about the owner and find out about their previous qualifications/experience.
+    iii. As a first-time user, I want to know what type of coaching services the owner/website offers.
+    iv. As a first-time user, I want to be able to locate the owners social media links to see their followings and find any potential reviews etc.
+    v. As a first-time user, I want to have the option to contact the owner further if required.
+    vi. As a first-time user, I want access to business owner operating times.
 
 #### * Returning User Goal
   
-i. As a returning user, I want to know if there's a FAQs page for any questions I may have.
-ii. As a returning user, I want access to different ways of contacting the user further if required.
-iii. As a returning user, I want access to owner operating hours to book further coaching.
-iv. As a returning user I want to easily access further information as required.
+    i. As a returning user, I want to know if there's a FAQs page for any questions I may have.
+    ii. As a returning user, I want access to different ways of contacting the user further if required.
+    iii. As a returning user, I want access to owner operating hours to book further coaching.
+    iv. As a returning user I want to easily access further information as required.
 
 #### * Frequent User Goal
   
-i. As a frequent user, I want to know if there will be chance to give feedback on the website.
-ii. As a frequent user, I want access to owner operating hours.
-iii. As a frequent user I want to access information easily.
-iv. As a frequent user I want to be able to contact the owner easily.
+    i. As a frequent user, I want to know if there will be chance to give feedback on the website.
+    ii. As a frequent user, I want access to owner operating hours.
+    iii. As a frequent user I want to access information easily.
+    iv. As a frequent user I want to be able to contact the owner easily.
 
 ### Research
 
