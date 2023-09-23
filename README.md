@@ -43,6 +43,12 @@
     - [**Forking the Github Repository**](#forking-the-github-repository)
     - [**Making a Local Clone**](#making-a-local-clone)
   - [**Testing**](#testing)
+    - [**User Stories Testing**](#user-stories-testing)
+      - [**First Time User Goal**](#first-time-user-goal)
+      - [**Returning User Goal**](#returning-user-goal)
+      - [**Frequent Visitor Goal**](#frequent-visitor-goal)
+  - [**Manual Testing**](#manual-testing)
+    - [**Responsiveness**](#responsiveness)
   - [**Credits**](#credits)
     - [**Code**](#code)
     - [**Images**](#images)
@@ -378,14 +384,76 @@ By cloning a GitHub Repository you can create a local copy on your computer of t
 5. Open Git Bash.
 6. Change the current working directory to the location where you want the cloned directory to be made.
 7. Type git clone, and then paste the URL you copied in Step 4.
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-1. Press Enter. Your local clone will be created.
+8. Press Enter. Your local clone will be created.
 
 [Back to top](#think-in-space)
 
 ## **Testing**
+
+### **User Stories Testing**
+
+#### **First Time User Goal**
+
+1. As a first-time user, I want to be able to find the information I'm looking for quickly and easily and be able to navigate the website with ease.
+
+- The navigation bar is clearly defined, with an .active attribute, and icons attached to each option to assist the user.
+- A logo on the top of the page and in the footer leads the user back to the About Me page.
+- A 'Back to Top' button is included on every page so the user can return to the navigation bar where required.
+
+2. As a first-time user, I want to learn about the owner and find out about their previous qualifications/experience.
+
+- An about me page contains three sections; The Coach, Background and Tried and Tested, which include information about the Coach's experience, background, qualifications and people he has helped.
+
+3. As a first-time user, I want to know what type of coaching services the owner/website offers.
+
+- A second page has a 'What to Expect' section which includes a step by step guide based on an initial coaching session.
+
+4. As a first-time user, I want to be able to locate the owners social media links to see their followings and find any potential reviews etc.
+
+- The Coach's LinkedIn profile is attached to the footer, as well as a link to a feedback list from previous clientele.
+
+5. As a first-time user, I want to have the option to contact the owner further if required. 
+
+- A contact form and the Coach's contact details are available on a Contact page on the website. A link to this is included in the footer of each page, as well as via the navigation bar.
+
+#### **Returning User Goal**
+
+1. As a returning user, I want to know if there's a FAQs page for any questions I may have.
+
+- The FAQ section on the Contact page provides the answers to some of the questions that the user might have.
+- The contact form also functions as one of the options for the user to ask questions.
+
+2. As a returning user, I want access to different ways of contacting the user further if required.
+
+- The contact form functions as the main means of communication for the user to contact the Coach.
+- The Coach's phone number is provided in the Contact Us section.
+- The Coach's email address is also provided in the Contact Us section if the user prefers not to use the contact Form.
+- A social media link can also can be used as an option to contact the Coach via LinkedIn. The social media link is located in the Footer.
+
+1. As a returning user I want to easily access further information as required.
+
+- For any users that want to know more about Life Coaching, there are further links via a learn more link in the footer.
+
+#### **Frequent Visitor Goal**
+
+1. As a frequent user, I want to know if there will be chance to give feedback on the website.
+
+- A link to a feedback form is available in the footer.
+
+2. As a frequent user I want to access information easily.
+
+- Access to further information is available via a 'learn more' link in the footer. 
+- The Contact Form can also be used to contact the Coach to find out more.
+
+3. As a frequent user I want to be able to contact the owner easily.
+
+- The Coach can be contacted via a contact form, or by phone, email, or via LinkedIn. This gives the user options, depending on what's preferable for them.
+
+## **Manual Testing**
+
+### **Responsiveness**
+
+images of different sized screens
 
 ## **Credits**
 
@@ -393,13 +461,13 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 1. Bootstrap 5.3: Bootstrap was used extensively throughout the project, including the following components:
 
-- Collapsible Navigation Bar:
-- Carousel:
-- Grid System:
+- [A Collapsible Navigation Bar](https://getbootstrap.com/docs/5.3/components/navbar/#toggler)
+- [A Carousel](https://getbootstrap.com/docs/5.3/components/carousel/)
+- [A Bootstrap Grid System](https://getbootstrap.com/docs/5.3/layout/grid/#example)
 
 ### **Images**
 
-- The Coach created the Logo using
+- The Coach created the Logo [using
 
 I used the following image for the background of each site page:
 
@@ -411,8 +479,8 @@ The following images I used to populate each page section:
 
 ## **Acknowledgements**
 
-* My mentor, Oluwaseun Owonikoko, for the helpful feedback on all aspects of the Website.
-* My friend and mentor Elwyn Davies, for the site features and his continued support throughout as well as his insight into the coaching world.
-* My wife Beth for her constant support, and for proof reading and testing my site material.
+- My mentor, Oluwaseun Owonikoko, for the helpful feedback on all aspects of the Website.
+- My friend and mentor Elwyn Davies, for the site features and his continued support throughout, as well as his insight into the coaching world.
+- My wife Beth for her constant support, and for proof reading and testing my site material.
 
 [Back to top](#think-in-space)
