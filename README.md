@@ -8,9 +8,9 @@
   - [**UX Development**](#ux-development)
     - [**1. Strategy Plane**](#1-strategy-plane)
     - [**User Stories**](#user-stories)
-      - [\* **First Time User Goal**](#-first-time-user-goal)
-      - [\* **Returning User Goal**](#-returning-user-goal)
-      - [\* **Frequent User Goal**](#-frequent-user-goal)
+      - [**First Time User Goals**](#first-time-user-goals)
+      - [**Returning User Goals**](#returning-user-goals)
+      - [**Frequent User Goal**](#frequent-user-goal)
     - [**Research**](#research)
     - [**Project Goals**](#project-goals)
     - [**User Goals**](#user-goals)
@@ -54,9 +54,9 @@ The Think-In-Space Website was created alongside my friend, coach and mentor Elw
 
 Elwyn had been planning to get help with creating a website to compliment his life coaching work, and to advertise his persona and skills to a wider audience. The Code Institute's first milestone project was the perfect opportunity to get the ball rolling.
 
-After several discussions and mind mapping ideas, a strategy was implemented.
+The main requirement of this project was to build a responsive, static front end site, with the main principle of making the website simple and easy to use.
 
-The main requirement of this project is to build a responsive, static front end site, with the main principle of making the website simple and easy to use.
+After several discussions and mind mapping ideas, a strategy was implemented.
 
 ## **UX Development**
 
@@ -64,47 +64,47 @@ The main requirement of this project is to build a responsive, static front end 
 
 UX research was carried out through discussion with:
 
-* Elwyn Davies
-* Previous clients
-* Friends and family
-* Work colleagues
+- Elwyn Davies
+- Previous clients
+- Friends and family
+- Work colleagues
 
 ### **User Stories**
 
-#### * **First Time User Goal**
+#### **First Time User Goals**
 
-&nbsp;&nbsp;&nbsp;&nbsp;i. As a first-time user, I want to be able to find the information I'm looking for quickly and easily and be able to navigate the website with ease.\
-&nbsp;&nbsp;&nbsp;&nbsp;ii. As a first-time user, I want to learn about the owner and find out about their previous qualifications/experience.\
-&nbsp;&nbsp;&nbsp;&nbsp;iii. As a first-time user, I want to know what type of coaching services the owner/website offers.\
-&nbsp;&nbsp;&nbsp;&nbsp;iv. As a first-time user, I want to be able to locate the owners social media links to see their followings and find any potential reviews etc.\
-&nbsp;&nbsp;&nbsp;&nbsp;v. As a first-time user, I want to have the option to contact the owner further if required.\
-&nbsp;&nbsp;&nbsp;&nbsp;vi. As a first-time user, I want access to business owner operating times.
+1. As a first-time user, I want to be able to find the information I'm looking for quickly and easily and be able to navigate the website with ease.
+2. As a first-time user, I want to learn about the owner and find out about their previous qualifications/experience.
+3. As a first-time user, I want to know what type of coaching services the owner/website offers.
+4. As a first-time user, I want to be able to locate the owners social media links to see their followings and find any potential reviews etc.
+5. As a first-time user, I want to have the option to contact the owner further if required.
+6. As a first-time user, I want access to business owner operating times.
 
-#### * **Returning User Goal**
+#### **Returning User Goals**
   
-&nbsp;&nbsp;&nbsp;&nbsp; i. As a returning user, I want to know if   there's a FAQs page for any questions I may have.
-&nbsp;&nbsp;&nbsp;&nbsp;ii. As a returning user, I want access to different ways of contacting the user further if required.
-&nbsp;&nbsp;&nbsp;&nbsp;iii. As a returning user, I want access to owner operating hours to book further coaching.
-&nbsp;&nbsp;&nbsp;&nbsp;iv. As a returning user I want to easily access further information as required.
+1. As a returning user, I want to know if   there's a FAQs page for any questions I may have.
+2. As a returning user, I want access to different ways of contacting the user further if required.
+3. As a returning user, I want access to owner operating hours to book further coaching.
+4. As a returning user I want to easily access further information as required.
 
-#### * **Frequent User Goal**
+#### **Frequent User Goal**
   
-&nbsp;&nbsp;&nbsp;&nbsp;i. As a frequent user, I want to know if there will be chance to give feedback on the website.
-&nbsp;&nbsp;&nbsp;&nbsp;ii. As a frequent user, I want access to owner operating hours.
-&nbsp;&nbsp;&nbsp;&nbsp;iii. As a frequent user I want to access information easily.
-&nbsp;&nbsp;&nbsp;&nbsp;iv. As a frequent user I want to be able to contact the owner easily.
+1. As a frequent user, I want to know if there will be chance to give feedback on the website.
+2. As a frequent user, I want access to owner operating hours.
+3. As a frequent user I want to access information easily.
+4. As a frequent user I want to be able to contact the owner easily.
 
 ### **Research**
 
-* Interviews with website owner
+- Interviews with website owner
 
 Numerous discussions with the website owner to understand their wants and needs from the website. Discussed strategy, functionality, theme and 'feeling'. As part of this, obtained photographs and soundbites to aid with the website design. Owner shared existing logo in order to guide the theme across the pages.
 
-* Competitor research
+- Competitor research
 
 Researched other coaching websites avaialable online. This aided me to understand what is feasible, what looks good in this sector and how other coaches present themselves. This reasearch led me to suggest the owner drop the initially suggested 'Unconventional Coach' name, as there are many other more 'unconventional' methods in comparison to his offering. The research led me to conclude that in this case, 'unconventional' wasn't appropriate and wouldn't add value.
 
-* Sector Research
+- Sector Research
 
 I researched articles and sites that focused on life coaching, which helped to guide me on the best approaches, taglines and language for the sector.
 
@@ -130,23 +130,23 @@ The target audience for this website is varied, as life coaching is available to
 
 Specifically:
 
-* People who require emotional support or guidance
-* People interested in life coaching, looking to make a change
+- People who require emotional support or guidance
+- People interested in life coaching, looking to make a change
 
 The user goal when using this website is to get comprehensive information about 'Think-in-Space' and enable them to make contact with the Coach to begin a coaching programme.
 
 ### **Business Goals**
 
-* The life coaching sector is busy and has wide-ranging offerings. As such, the website must make it clear the style of coaching offered, and help the user to make the right decision for them.
+- The life coaching sector is busy and has wide-ranging offerings. As such, the website must make it clear the style of coaching offered, and help the user to make the right decision for them.
 
 The business goals of this site are:
 
-* Create an online presence for the coach
-* Introduce the coach to the customer base
-* Acquire new customers to the business
-* Provide information for people looking to begin life coaching
-* To introduce life coaching as a concept to people who may not have otherwise considered it
-* Using FAQs, reviews and testimonials to drive further engagement from returning users
+- Create an online presence for the coach
+- Introduce the coach to the customer base
+- Acquire new customers to the business
+- Provide information for people looking to begin life coaching
+- To introduce life coaching as a concept to people who may not have otherwise considered it
+- Using FAQs, reviews and testimonials to drive further engagement from returning users
 
 [Back to top](#think-in-space)
 
@@ -154,9 +154,9 @@ The business goals of this site are:
 
 Think-in-Space has a Business-To-Customer (B2C) product, in an emerging but busy market, which has considerations as below:
 
-* Calming and friendly presence
-* Minimal, to the point content
-* The design stands out amongst competitors
+- Calming and friendly presence
+- Minimal, to the point content
+- The design stands out amongst competitors
 
 ### **Strategy Table**
 
@@ -186,15 +186,15 @@ The chart below is the mapping of all of the opportunities. The yellow circle si
 
 Based on the mapping in Strategy Plane, I decided to include these contents below in the website:
 
-* Coach Bio and background; Introduces the user to the coach.
-* How Coaching works; Will inform the user of what Life Coaching is, and whether it is the right choice for them.
-* Contact form; which will include a request for a coaching session or further information depending on what the user needs.
-* Frequently Asked Questions; which will further aid the user's decision based on the choice to try out Life Coaching.
-* Location and approach; A map will be included, as well as suggestions based on where coaching could take place.
-* Functionality requirements:
+- Coach Bio and background; Introduces the user to the coach.
+- How Coaching works; Will inform the user of what Life Coaching is, and whether it is the right choice for them.
+- Contact form; which will include a request for a coaching session or further information depending on what the user needs.
+- Frequently Asked Questions; which will further aid the user's decision based on the choice to try out Life Coaching.
+- Location and approach; A map will be included, as well as suggestions based on where coaching could take place.
+- Functionality requirements:
 The user should be able to navigate easily through the website to access all the contents via a navigation menu.
-* The user should have access to the owner's contact details as required
-* The user will be able to access a series of testimonials via a user friendly carousel
+- The user should have access to the owner's contact details as required
+- The user will be able to access a series of testimonials via a user friendly carousel
 
 ### 3. **Structure Plane**
 
@@ -206,11 +206,9 @@ The website must have a simple structure with a user friendly navigation element
 
 Wireframes were created using Balsamiq to design the layout and interface of the website. The developer designed it with a good UI design in mind, which allows immediate interaction in first-time learning, and perfectly meets the needs of the intended audience.
 
-The wireframes can be found below:
+The Balsamiq Wireframes/Website Design can be found in the link below:
 
-[]
-[]
-[]
+[Balsamiq-wireframes.pdf](https://github.com/Coder4916/ci_milestone/files/12707116/Balsamiq-wireframes.pdf)
 
 ### 5. **Surface Plane**
 
@@ -226,7 +224,7 @@ The colors used are primarily derived from the logo provided by the website owne
 
 #### **Typography**
 
-The fonts I used for the website were sourced from Google Fonts. Inc Roboto and Lexend. Lexend used for titles and Roboto for paragraphs/general text. Both fonts are recommended for use for people with dysleia Tink 'n' Stink. Fall back font Sans Serif.
+The fonts I used for the website were sourced from Google Fonts. Inc Roboto and Lexend. Lexend used for titles and Roboto for paragraphs/general text. Both fonts are recommended for use for people with dysleia [(Tink 'n' Stink)](https://www.tinknstink.co.uk/blogs/news/why-we-use-the-dyslexia-friendly-font-lexend). Fall back font Sans Serif.
 
 [Lexend Font](https://fonts.google.com/specimen/Lexend?query=lexend)
 
@@ -236,14 +234,6 @@ The fonts I used for the website were sourced from Google Fonts. Inc Roboto and 
 
 I have utilised a mix of free to use images sourced online, and the Coach's personal pictures of local green space/blue space etc.
 
-I used the following image for the background of each site page:
-
-[Pexels image by Ave Calvar Martinez](https://www.pexels.com/photo/close-up-photo-of-pebbles-3010168/)
-
-The following images I used to populate each page section:
-
-[]
-
 [Back to top](#think-in-space)
 
 ## **Features**
@@ -252,33 +242,33 @@ The following images I used to populate each page section:
 
 #### 1. **Header**
 
-* The header consists of a website logo which sits on the left hand side of the page, navigation bar and title. The nav-bar includes three nav-links on the right hand side that link to each site page. The header occupies 100% width of the site.
+- The header consists of a website logo which sits on the left hand side of the page, navigation bar and title. The nav-bar includes three nav-links on the right hand side that link to each site page. The header occupies 100% width of the site.
 
-* The navigation bar is fully responsive on all device sizes. On desktop view, the user can see all nav-links, while on a smaller device, these collapse to a hamburger menu.
+- The navigation bar is fully responsive on all device sizes. On desktop view, the user can see all nav-links, while on a smaller device, these collapse to a hamburger menu.
 
-* The Nav-links have a subtle hover state when the user hovers over each link.
+- The Nav-links have a subtle hover state when the user hovers over each link.
 
 #### 2. **About me page**
 
-* The About me page includes three sections which give a brief introduction of the Coach;
+- The About me page includes three sections which give a brief introduction of the Coach;
 
-* The Coach, Background and Tried and Tested sections include information about the Coach's life experience and qualifications, as well as how the Coach has already helped others.
+- The Coach, Background and Tried and Tested sections include information about the Coach's life experience and qualifications, as well as how the Coach has already helped others.
 
 #### 3. **Coaching Page**
 
-* The Coaching Page includes three sections which inform the user about Life Coaching;
+- The Coaching Page includes three sections which inform the user about Life Coaching;
 
-* The Why Life Coaching, What to Expect, and Testimonials sections include information and reviews based on what would normally be involved if a user decides to book a coaching session, and help them decide whether this coaching/journey is right for them.
+- The Why Life Coaching, What to Expect, and Testimonials sections include information and reviews based on what would normally be involved if a user decides to book a coaching session, and help them decide whether this coaching/journey is right for them.
 
-* A carousel has been added to display coaching reviews and is fully responsive on all devices.
+- A carousel has been added to display testimonials and is fully responsive on all devices.
 
 #### 4. **Contact Page**
 
-* The Contact Page is divided into three sections, which allows the user to contact the Coach or book a session;
+- The Contact Page is divided into three sections, which allows the user to contact the Coach or book a session;
 
-* The Get in Touch, Opening Times and FAQs sections contain a contact form, map, availability times and answers to frequently asked questions to assist the user.
+- The Get in Touch, Opening Times and FAQs sections contain a contact form, map, availability times and answers to frequently asked questions to assist the user.
 
-* All sections are 75% width of the screen size and fully responsive on different sized devices.
+- All sections are 75% width of the screen size and fully responsive on different sized devices.
 
 #### 5. **Footer**
 
@@ -292,13 +282,13 @@ A Learn More link was added to the Footer, which gives the user access to a list
 
 These features will be added where possible during further development phases:
 
-* A time/date picker to book available coaching sessions automatically.
+- A time/date picker to book available coaching sessions automatically.
 
-* A Feedback form to give feedback based on a user's coaching journey.
+- A Feedback form to give feedback based on a user's coaching journey.
   
-* A Legitimate form url address where the user's details can be stored and utilised by the Coach.
+- A Legitimate form url address where the user's details can be stored and utilised by the Coach.
 
-* An option to have the website translated to Welsh if the user prefers.
+- An option to have the website translated to Welsh if the user prefers.
 
 [Back to top](#think-in-space)
 
@@ -340,15 +330,15 @@ These features will be added where possible during further development phases:
 
 ## **Issues and Bugs**
 
-* Issue: Understanding Bootstrap 5, and being aware of updates. Eg. the class ".no gutters", to remove automatic padding that Bootstrap provides with .div rows and columns, became the class ".g-0".
+- Issue: Understanding Bootstrap 5, and being aware of updates. Eg. the class ".no gutters", to remove automatic padding that Bootstrap provides with .div rows and columns, became the class ".g-0".
 
-* Issue: Trying to remove a Bootstrap 5 color from the .active nav-bar, and having to add !Important to CSS to overide.
+- Issue: Trying to remove a Bootstrap 5 color from the .active nav-bar, and having to add !Important to CSS to overide.
 
-* Issue: When trying to make the NavBar responsive, it was found that this could also be done via a Bootstrap 5 .fluid class.
+- Issue: When trying to make the NavBar responsive, it was found that this could also be done via a Bootstrap 5 .fluid class.
 
-* Issue: Ports not working/updating several times on Codeanywhere IDE. I regularly had to change the Port address/reset to make the updates to the site work, so I could see my progress.
+- Issue: Ports not working/updating several times on Codeanywhere IDE. I regularly had to change the Port/reset to make the updates to the site work, so I could see my progress.
 
-* Issue/Bug: README.md automatically began deleting itself while updating, when laptop was plugged into a smart tv. README.md had to be re-written.
+- Issue/Bug: README.md automatically began deleting itself while updating, when laptop was plugged into a smart tv. README.md had to be copied and pasted from Github repository.
 
 ## **Deployment**
 
@@ -403,13 +393,21 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 1. Bootstrap 5.3: Bootstrap was used extensively throughout the project, including the following components:
 
-* Collapsible Navigation Bar:
-* Carousel:
-* Grid System:
+- Collapsible Navigation Bar:
+- Carousel:
+- Grid System:
 
 ### **Images**
 
-* The Logo was created
+- The Coach created the Logo using
+
+I used the following image for the background of each site page:
+
+[Close up photo of pebbles image by Ave Calvar Martinez](https://www.pexels.com/photo/close-up-photo-of-pebbles-3010168/)
+
+The following images I used to populate each page section:
+
+[]
 
 ## **Acknowledgements**
 
