@@ -8,11 +8,11 @@
 
 /*------------------------------------------------ Text Elements */
 
-h3, h4 {
+h1, h2, h3, h4 {
     font-family: "Lexend", sans-serif;
     font-weight: 400;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     padding: 20px;
     color: rgb(231, 223, 223);
 }
@@ -38,12 +38,12 @@ li {
 /*------------------------------------------------ header */
 
 #header {
-    margin: 0;
+    margin: auto 0;
 }
 
 .header-logo {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .title-nav-container {
@@ -64,21 +64,16 @@ li {
 
 .coach-title {
     margin: 0;
-    padding-top: 13px;
-    padding-left: 18px;
-    padding-bottom: 10px;
-    font-family: "Lexend" sans-serif;
-    font-size: 6vw;
+    font-family: "Lexend";
+    font-size: 60px;
     font-weight: 200;
     color: rgb(231, 223, 223);
 }
 
 .sub-title {
     margin: 0;
-    padding-left: 18px;
-    padding-bottom: 13px;
     font-family: "Roboto";
-    font-size: 5vw;
+    font-size: 40px;
     font-weight: 200;
     color: rgb(231, 223, 223);
 }
@@ -148,7 +143,7 @@ body {
     margin: auto;
     padding: 40px;
     width: 75%;
-    background-color: #28464B;
+    background-color: hsl(189, 30%, 23%, 0.9);
 }
 
 .coach-info {
@@ -174,7 +169,7 @@ body {
     margin: auto;
     padding: 40px;
     width: 75%;
-    background-color: #28464B;
+    background-color: hsl(189, 30%, 23%, 0.9);
 }
 
 .background-info {
@@ -199,7 +194,7 @@ body {
     margin: auto;
     padding: 40px;
     width: 75%;
-    background-color: #28464B;
+    background-color: hsl(189, 30%, 23%, 0.9);
 }
 
 .tried-and-tested-info {
@@ -226,7 +221,7 @@ body {
     margin: auto;
     padding: 40px;
     width: 75%;
-    background-color: #28464B;
+    background-color: hsl(189, 30%, 23%, 0.9);
 }
 
 .why-life-coaching {
@@ -251,7 +246,7 @@ body {
     margin: auto;
     padding: 40px;
     width: 75%;
-    background-color: #28464B;
+    background-color: hsl(189, 30%, 23%, 0.9);
 }
 
 .what-to-expect {
@@ -285,7 +280,7 @@ body {
     margin: auto;
     padding: 40px;
     width: 75%;
-    background-color: #28464B;
+    background-color: hsl(189, 30%, 23%, 0.9);
 }
 
 .carousel-item {
@@ -305,11 +300,12 @@ body {
     margin: auto;
     padding: 40px;
     width: 75%;
-    background-color: #28464B;
+    background-color: hsl(189, 30%, 23%, 0.9);
 }
 
 .form-container {
-    margin: 0 auto;
+    margin: 10px auto;
+    width: 75%;
     background-color: rgb(38, 162, 181, 0.2);
     color: rgb(231, 223, 223);
     border: 5px solid #798383;
@@ -318,7 +314,7 @@ body {
 
 .contact-item {
     display: block;
-    width: 75%;
+    width: 55%;
     padding: 0;
     margin: 0 auto;
 }
@@ -330,7 +326,8 @@ body {
 }
 
 .mapouter {
-    margin: 0 auto;
+    margin: 10px auto;
+    width: 75%;
     text-align: center;
     background-color: rgb(38, 162, 181, 0.2);
     color: rgb(231, 223, 223);
@@ -354,9 +351,9 @@ body {
 
 #faqs-section {
     margin: auto;
-    padding: 40px;
+    padding: 60px;
     width: 75%;
-    background-color:#28464B;
+    background-color:hsl(189, 30%, 23%, 0.9);
 }
 
 .faqs-container p {
@@ -367,8 +364,9 @@ body {
 
 .back-to-top-btn {
     color: rgb(231, 223, 223);
-    padding: 30px;
+    padding: 20px;
     background-color: rgb(38, 162, 181, 0.6);
+    height: auto;
     width: 12.5%;
     position: fixed;
     bottom: 0;
@@ -409,6 +407,31 @@ body {
     padding-bottom: 20px;
 }
 
+/*------------------------------------------------ Learn more page */
+
+/*------------------------------------------------ Learn more section */
+
+#learn-more-section {
+    margin: auto;
+    padding: 40px;
+    width: 75%;
+    background-color:#28464B;
+}
+
+#learn-more-section li{
+    text-align: center;
+    list-style: none;
+}
+
+#learn-more-section a {
+    text-decoration: none;
+    color: rgb(231, 223, 223);
+}
+
+#learn-more-section h2 {
+    color: rgb(231, 223, 223);
+}
+
 /*------------------------------------------------ Media Queries */
 
 /* Extra small devices (phones, 600px and down) */
@@ -420,7 +443,8 @@ body {
     #what-to-expect-section,
     #testimonials-section,
     #get-in-touch-section,
-    #faqs-section {
+    #faqs-section,
+    #learn-more-section {
         width:100%;
     }
 }
@@ -428,6 +452,10 @@ body {
 @media only screen and (max-width: 768px) {
     .back-to-top-btn {
         width: 100%;
+    }
+
+    #footer {
+        margin-bottom: 63px;
     }
 }
 
