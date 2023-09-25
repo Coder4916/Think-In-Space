@@ -314,7 +314,7 @@ body {
 
 .contact-item {
     display: block;
-    width: 55%;
+    width: 40%;
     padding: 0;
     margin: 0 auto;
 }
@@ -456,6 +456,18 @@ body {
 
     #footer {
         margin-bottom: 63px;
+    }
+
+    .form-container {
+        width: 90%;
+    }
+
+    .mapouter {
+        width: 90%;
+    }
+
+    .contact-item {
+        width: 55%;
     }
 }
 
