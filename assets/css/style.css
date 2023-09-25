@@ -64,19 +64,19 @@ li {
 
 .coach-title {
     margin: 0;
-    padding-top: 1vw;
-    padding-left: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 13px;
+    padding-left: 18px;
+    padding-bottom: 10px;
     font-family: "Lexend" sans-serif;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 200;
     color: rgb(231, 223, 223);
 }
 
 .sub-title {
     margin: 0;
-    padding-left: 2vw;
-    padding-bottom: 1vw;
+    padding-left: 18px;
+    padding-bottom: 13px;
     font-family: "Roboto";
     font-size: 5vw;
     font-weight: 200;
@@ -122,6 +122,10 @@ li {
 
 .nav-item a i {
     font-size: 18px;
+}
+
+.active {
+    background-color: hsl(180, 3%, 45%, 0.5);
 }
 
 /*------------------------------------------------ Body Image*/
@@ -277,7 +281,7 @@ body {
 
 /*------------------------------------------------ Carousel/Testimonials Section */
 
-#carousel-section {
+#testimonials-section {
     margin: auto;
     padding: 40px;
     width: 75%;
@@ -297,7 +301,7 @@ body {
 
 /*------------------------------------------------ Form Section*/
 
-#form-section {
+#get-in-touch-section {
     margin: auto;
     padding: 40px;
     width: 75%;
@@ -343,7 +347,7 @@ body {
 #gmap-canvas iframe {
     border-radius: 5%;
     height: 300px;
-    width: auto;
+    width: 90%;
 }
 
 /*------------------------------------------------ FAQs Section */
@@ -390,47 +394,54 @@ body {
 .footer-logo {
     width: 175px;
     height: auto;
-    padding: 15px;
-    margin: auto 0;
+    padding: 10px;
+    margin: 10px;
 }
 
 .footer-menu {
     padding-top: 40px;
 }
 
-.footer-copyright {
+.copyright-text {
     color: rgb(231, 223, 223);
     font-family: "Roboto";
     font-weight: 200;
-    padding: 40px;
+    padding-bottom: 20px;
 }
 
 /*------------------------------------------------ Media Queries */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    #coach-section, 
+    #background-section,
+    #tried-and-tested-section,
+    #why-life-coaching-section,
+    #what-to-expect-section,
+    #testimonials-section,
+    #get-in-touch-section,
+    #faqs-section {
+        width:100%;
+    }
+}
 
+@media only screen and (max-width: 768px) {
+    .back-to-top-btn {
+        width: 100%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .background-image img {
-        display: flexbox;
-        background-position-y: top;
-    }
-}
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
+@media only screen and (min-width: 1200px) {}
 
 /*------------------------------------------------ Learn more page */
 
