@@ -1,4 +1,3 @@
-
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
@@ -131,6 +130,7 @@ body {
     background-size: cover;
     background-position: center;
     background-color: #326771;
+    height: auto;
     width: 100%;
 }
 
@@ -153,21 +153,22 @@ body {
 
 .coach-image {
     margin: auto;
-    text-align: center;
 }
 
 .coach-image img {
     height: auto;
     width: 300px;
-    border: solid #798383 3px;
+    border: solid #798383 5px;
     border-radius: 10%;
 }
 
 /*------------------------------------------------ Background Section*/
 
 #background-section {
+    position: relative;
     margin: auto;
     padding: 40px;
+    height: auto;
     width: 75%;
     background-color: hsl(189, 30%, 23%, 0.9);
 }
@@ -184,7 +185,7 @@ body {
 .background-image img{
     height: auto;
     width: 300px;
-    border: solid #798383 3px;
+    border: solid #798383 5px;
     border-radius: 10%;
 }
 
@@ -260,18 +261,20 @@ body {
     font-size: 18px;
 }
 
-.what-to-expect-image {
+.what-to-expect-gallery {
     margin: auto;
+    height: auto;
+    width: 300px;
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+    gap: 0;
 }
 
-.what-to-expect-image img {
+.what-to-expect-gallery img {
     height: auto;
-    width: 150px;
-    -webkit-column-count: 2;
-       -moz-column-count: 2;
-            column-count: 2;
-    border-radius: 10%;
-    padding: 5px;
+    width: 100%;
+    border: 2px solid transparent;
 }
 
 /*------------------------------------------------ Carousel/Testimonials Section */
@@ -470,18 +473,4 @@ body {
         width: 55%;
     }
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
-
-/*------------------------------------------------ Learn more page */
 

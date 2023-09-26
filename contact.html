@@ -6,22 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Think-In-Space, Life Coaching Website, Coach: Elwyn Davies, length: 5 pages, Creator: C Bailey;">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend:100,200,300,400,500,600|Roboto:100,200,300,400,500,600">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend:100,200,300,400,500,600!Roboto:100,200,300,400,500,600">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Think-In-Space</title>
 </head>
-
 <body>
 
-<!------------------------------------------------ >Header</-------------------------------------------------------------->
+<!--Header-->
 
     <header id="header">
         <div class="row g-0 container-fluid">
             <a href="index.html" class="col-md-3">
                 <picture>
-                    <source>
                     <img class="header-logo img-fluid" src="assets/images/logo-image.avif" alt="Website Logo 'Think-In-Space' with two trees.">
                 </picture>
             </a>
@@ -64,7 +62,7 @@
         </div>
     </header>
 
-<!------------------------------------------------ >Form/Contact Section</-------------------------------------------------------------->
+<!--Get In Touch Section-->
 
     <section id="get-in-touch-section" class="container-fluid">
         <div class="row g-0 container-fluid">
@@ -82,7 +80,7 @@
                                     <label for="full-name">Name</label>
                                         <input type="text" name="full-name" id="full-name" class="contact-item" aria-label="Name" required>
                                         <label for="phone-number">Phone Number</label>
-                                        <input type="tel" name="phone-number" id="phone-number" class="contact-item" aria-label="Phone Number">
+                                        <input type="tel" name="phone-number" id="phone-number" class="contact-item" aria-label="Phone Number" required>
                                         <label for="email">Email</label>
                                         <input type="email" name="email" id="email" class="contact-item" aria-label="Email Address" required>
                                 </fieldset>
@@ -90,12 +88,12 @@
                             
                                 <fieldset class="my-4">
                                     <legend>When and Where?</legend>
-                                        <label for="location" name="location">Preferred Location</label>
-                                            <select name="location" name="location" id="location" class="contact-item">
-                                                <option value="cafe"name="cafe">Cafe</option>
-                                                <option value="outdoor" name="outdoor">Outdoor</option>
-                                                <option value="phone" name="phone">Phone</option>
-                                                <option value="online" name="online">Online</option>
+                                        <label for="location">Preferred Location</label>
+                                            <select name="location" id="location" class="contact-item">
+                                                <option value="cafe" id="cafe">Cafe</option>
+                                                <option value="outdoor" id="outdoor">Outdoor</option>
+                                                <option value="phone" id="phone">Phone</option>
+                                                <option value="online" id="online">Online</option>
                                             </select>
                                         <label for="client-message">Message</label>
                                         <textarea name="client-message" 
@@ -115,11 +113,7 @@
                     <fieldset class="my-4">
                         <legend>Find Us</legend>
                         <div id="gmap-canvas">
-                            <iframe src="https://maps.google.com/maps?q=Think+In+Spac&t=&z=14&ie=UTF8&iwloc=&output=embed" 
-                                    frameborder="0" 
-                                    scrolling="no" 
-                                    marginheight="0" 
-                                    marginwidth="0">
+                            <iframe src="https://maps.google.com/maps?q=Think+In+Spac&t=&z=14&ie=UTF8&iwloc=&output=embed">
                             </iframe>
                             <a href="https://textcaseconvert.com/"></a>
                             <br>
@@ -142,7 +136,7 @@
             </div>
     </section>
 
-<!------------------------------------------------ >FAQs Section</-------------------------------------------------------------->
+<!--FAQs Section-->
     
     <section id="faqs-section">
         <div class="row g-0 container-fluid">
@@ -180,7 +174,7 @@
         </div>
     </section>
 
-<!------------------------------------------------ >Footer</-------------------------------------------------------------->
+<!--Footer-->
 
     <footer id="footer" class="container-fluid">
         <div class="row">
@@ -197,17 +191,13 @@
             <div class="col-md-4 list-inline">
                 <ul class="list-inline footer-menu">
                     <li class="list-inline-item"><a href="assets/links/learn-more.html" target="_blank"><i class="fa-solid fa-circle-info" aria-hidden="true"></i><span> Learn more</span></a></li>
-                    <hr>
                     <li class="list-inline-item"><a href="https://www.dropbox.com/" target="_blank"><i class="fa-brands fa-dropbox" aria-hidden="true"></i><span> DropBox</span></a></li>
-                    <hr>
                     <li class="list-inline-item"><a href="https://docs.google.com/forms/d/1hulnTnl6FdA6zJblf-mk6S8xEjIupqaH80Vsa_uvza4/edit#responses" target="_blank"><i class="fa-regular fa-comment" aria-hidden="true"></i><span> Feedback</span></a></li>
-                    <hr>
                 </ul>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline footer-menu">
                     <li class="list-inline-item"><a href="contact.html"><i class="fa-solid fa-square-phone" aria-hidden="true"></i><span> Contact</span></a></li>
-                    <hr>
                     <li class="list-inline-item"><a href="https://uk.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a></li> 
                 </ul>
             </div>
@@ -217,7 +207,7 @@
         <a href="#header" class="col nav-link"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i> Back to top</a>
     </div>
 
-<!------------------------------------------------ >Javascript Links</-------------------------------------------------------------->
+<!--Javascript Links-->
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
