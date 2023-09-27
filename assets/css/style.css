@@ -412,6 +412,10 @@ body {
     text-decoration: none;
 }
 
+#footer ul {
+    list-style-type: none;
+}
+
 #footer li {
     margin: 0;
     padding-bottom: 25px;

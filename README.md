@@ -49,6 +49,13 @@
       - [**Frequent Visitor Goal**](#frequent-visitor-goal)
   - [**Manual Testing**](#manual-testing)
     - [**Responsiveness**](#responsiveness)
+    - [**Links Testing**](#links-testing)
+    - [**Forms Testing**](#forms-testing)
+  - [**Autoprefixer CSS**](#autoprefixer-css)
+  - [\*\*W3C Validator Testing](#w3c-validator-testing)
+  - [**Lighthouse Testing**](#lighthouse-testing)
+  - [**CI Peer Code Review on Slack**](#ci-peer-code-review-on-slack)
+  - [\*\*Further Testing](#further-testing)
   - [**Credits**](#credits)
     - [**Code**](#code)
     - [**Images**](#images)
@@ -454,6 +461,23 @@ By cloning a GitHub Repository you can create a local copy on your computer of t
 ### **Responsiveness**
 
 images of different sized screens
+
+### **Links Testing**
+
+### **Forms Testing**
+
+## **Autoprefixer CSS**
+
+## **W3C Validator Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the project.
+[W3C Markup Validator](https://validator.w3.org/) - There were no error detected.
+
+## **Lighthouse Testing**
+
+## **CI Peer Code Review on Slack**
+
+## **Further Testing
 
 ## **Credits**
 
