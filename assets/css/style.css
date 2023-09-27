@@ -7,12 +7,23 @@
 
 /*------------------------------------------------ Text Elements */
 
-h1, h2, h3, h4 {
+h3 {
     font-family: "Lexend", sans-serif;
     font-weight: 400;
+    font-size: 50px;
     text-align: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
+    color: rgb(231, 223, 223);
+}
+
+h4 {
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
     color: rgb(231, 223, 223);
 }
 
@@ -38,6 +49,7 @@ li {
 
 #header {
     margin: auto 0;
+    height: 75%;
 }
 
 .header-logo {
@@ -62,17 +74,21 @@ li {
 }
 
 .coach-title {
-    margin: 0;
+    margin: auto 0;
     font-family: "Lexend";
-    font-size: 60px;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 6vw;
     font-weight: 200;
     color: rgb(231, 223, 223);
 }
 
 .sub-title {
-    margin: 0;
+    margin: auto 0;
     font-family: "Roboto";
-    font-size: 40px;
+    padding: 30px;
+    padding-left: 20px;
+    font-size: 4vw;
     font-weight: 200;
     color: rgb(231, 223, 223);
 }
@@ -262,7 +278,7 @@ body {
 }
 
 .what-to-expect-gallery {
-    margin: auto;
+    margin: 0 auto;
     height: auto;
     width: 300px;
     -webkit-column-count: 3;
@@ -287,12 +303,14 @@ body {
 }
 
 .carousel-item {
-    margin: auto 0;
-    padding: 13vw;
     text-align: center;
     background-color: rgb(38, 162, 181, 0.3);
-    height: 400px;
+    padding: 19%;
     border-radius: 3%;
+}
+
+.carousel-item em{
+    font-size: 25px;
 }
 
 /*------------------------------------------------ Contact Page */
@@ -392,6 +410,11 @@ body {
     text-decoration: none;
 }
 
+#footer li {
+    margin: 0;
+    padding-bottom: 25px;
+}
+
 .footer-logo {
     width: 175px;
     height: auto;
@@ -418,7 +441,7 @@ body {
     margin: auto;
     padding: 40px;
     width: 75%;
-    background-color:#28464B;
+    background-color:hsl(189, 30%, 23%, 0.9);
 }
 
 #learn-more-section li{
@@ -450,6 +473,10 @@ body {
     #learn-more-section {
         width:100%;
     }
+
+    .carousel-item em {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -471,6 +498,16 @@ body {
 
     .contact-item {
         width: 55%;
+    }
+
+    .carousel-item em {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .carousel-item em{
+        font-size: 35px;
     }
 }
 
