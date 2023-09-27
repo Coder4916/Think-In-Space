@@ -10,7 +10,7 @@
 h3 {
     font-family: "Lexend", sans-serif;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     margin: 0 auto;
     padding: 40px;
@@ -278,7 +278,7 @@ body {
 }
 
 .what-to-expect-gallery {
-    margin: 0 auto;
+    margin: auto;
     height: auto;
     width: 300px;
     -webkit-column-count: 3;
@@ -378,7 +378,9 @@ body {
 }
 
 .faqs-container p {
-    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
 }
 
 /*------------------------------------------------ Back to top Btn */
@@ -447,6 +449,7 @@ body {
 #learn-more-section li{
     text-align: center;
     list-style: none;
+    line-height: 40px;
 }
 
 #learn-more-section a {
@@ -461,6 +464,7 @@ body {
 /*------------------------------------------------ Media Queries */
 
 /* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
     #coach-section, 
     #background-section,
@@ -478,6 +482,8 @@ body {
         font-size: 15px;
     }
 }
+
+/* Medium devices (Tablets, 768px and down) */
 
 @media only screen and (max-width: 768px) {
     .back-to-top-btn {
@@ -503,11 +509,42 @@ body {
     .carousel-item em {
         font-size: 20px;
     }
+
+    p {
+        font-size: medium;
+    }
 }
+
+/* Large devices (992px and up) */
 
 @media only screen and (min-width: 992px) {
     .carousel-item em{
-        font-size: 35px;
+        font-size: 30px;
     }
+
+    p {
+        font-size: large;
+    }
+
+    em {
+        font-size: medium;
+    }
+
+    .nav-item span {
+        font-size: large;
+    }
+
+    .learn-more-section li {
+        font-size: large;
+    }
+
+    .what-to-expect li {
+        font-size: large;
+    }
+
+    #footer li {
+        font-size: large;
+    }
+
 }
 
