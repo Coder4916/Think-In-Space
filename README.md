@@ -1,5 +1,7 @@
 # **Think-In-Space**
 
+![Am I Responsive Image]()
+
 ## **Table of Contents**
 
 - [**Think-In-Space**](#think-in-space)
@@ -217,31 +219,19 @@ The website must have a simple structure with a user friendly navigation element
 
 ### 4. **Skeleton Plane**
 
-Wireframes were created using Balsamiq to design the layout and interface of the website. The developer designed it with a good UI design in mind, which allows immediate interaction in first-time learning, and perfectly meets the needs of the intended audience.
+The initial layout and interface of the Website was created using Balsamiq Wireframes. The design/layout and feel of the site was created with UI in mind, which allows immediate interaction in first-time learning, and meets the needs of the intended audience.
 
-The Balsamiq Wireframes/Website Design can be found in the link below:
-
-[Balsamiq-wireframes.pdf](https://github.com/Coder4916/ci_milestone/files/12707116/Balsamiq-wireframes.pdf)
+![Balsamiq-wireframes](/assets/images/Balsamiq-Wireframes.png)
 
 ### 5. **Surface Plane**
 
 #### **Color Scheme**
 
-The colors used are primarily derived from the logo provided by the website owner. To create a cohesive color scheme from beginning to end. I used Color Wheel, Colour Picker and Coolors to identify complementary colours and wider colours palettes that would work on the website.
-
-[Color Wheel](https://www.canva.com/colors/color-wheel/)
-
-[Color Picker](https://www.google.com/search?q=color+picker&oq=color&aqs=chrome.3.0i67i433i650j69i57j69i59l2j0i67i650l3j69i61.2852j0j7&sourceid=chrome&ie=UTF-8&bshm=rime/1)
-
-[Coolers](https://coolors.co/)
+The colors used are primarily derived from the logo provided by the website owner. To create a cohesive color scheme from beginning to end, [Color Wheel](https://www.canva.com/colors/color-wheel/), [Color Picker](https://www.google.com/search?q=color+picker&oq=color&aqs=chrome.3.0i67i433i650j69i57j69i59l2j0i67i650l3j69i61.2852j0j7&sourceid=chrome&ie=UTF-8&bshm=rime/1) and [Coolers](https://coolors.co/) were used to identify complementary colours and wider colour palettes that would work on the website.
 
 #### **Typography**
 
-The fonts I used for the website were sourced from Google Fonts. Inc Roboto and Lexend. Lexend used for titles and Roboto for paragraphs/general text. Both fonts are recommended for use for people with dysleia [(Tink 'n' Stink)](https://www.tinknstink.co.uk/blogs/news/why-we-use-the-dyslexia-friendly-font-lexend). Fall back font Sans Serif.
-
-[Lexend Font](https://fonts.google.com/specimen/Lexend?query=lexend)
-
-[Roboto](https://fonts.google.com/specimen/Roboto?query=roboto)
+The fonts I used for the website were sourced from Google Fonts. Inc [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) and [Lexend Font](https://fonts.google.com/specimen/Lexend?query=lexend). Lexend used for titles and Roboto for paragraphs/general text. Both fonts are recommended for use for people with dysleia [(Tink 'n' Stink)](https://www.tinknstink.co.uk/blogs/news/why-we-use-the-dyslexia-friendly-font-lexend). Fall back font Sans Serif.
 
 #### **Imagery**
 
@@ -257,9 +247,11 @@ I have utilised a mix of free to use images sourced online, and the Coach's pers
 
 - The header consists of a website logo which sits on the left hand side of the page, navigation bar and title. The nav-bar includes three nav-links on the right hand side that link to each site page. The header occupies 100% width of the site.
 
-- The navigation bar is fully responsive on all device sizes. On desktop view, the user can see all nav-links, while on a smaller device, these collapse to a hamburger menu.
+- The navigation bar is fully responsive on all device sizes. On desktop view, the user can see all nav-links, while on a smaller device, these collapse to a [Bootstrap Hamburger](https://getbootstrap.com/docs/5.3/components/navbar/#toggler) menu.
 
-- The Nav-links have a subtle hover state when the user hovers over each link.
+- The main logo is not displayed on a small device to create more space for content and features. This is done using a CSS Media Query.
+
+- The Nav-links have a subtle hover state when the user hovers over each link, and includes a [Bootstrap](https://getbootstrap.com/docs/5.3/components/list-group/#active-items) .active class to show which page the user is on.
 
 #### 2. **About me page**
 
@@ -273,7 +265,7 @@ I have utilised a mix of free to use images sourced online, and the Coach's pers
 
 - The Why Life Coaching, What to Expect, and Testimonials sections include information and reviews based on what would normally be involved if a user decides to book a coaching session, and help them decide whether this coaching/journey is right for them.
 
-- A carousel has been added to display testimonials and is fully responsive on all devices.
+- A Bootstrap Carousel has been added to display testimonials and is fully responsive on all devices.
 
 #### 4. **Contact Page**
 
@@ -296,8 +288,6 @@ A Learn More link was added to the Footer, which gives the user access to a list
 These features will be added where possible during further development phases:
 
 - A time/date picker to book available coaching sessions automatically.
-
-- A Feedback form to give feedback based on a user's coaching journey.
   
 - A Legitimate form url address where the user's details can be stored and utilised by the Coach.
 
@@ -327,13 +317,13 @@ These features will be added where possible during further development phases:
 
 4. [Codeanywhere](https://app.codeanywhere.com/) IDE was used for creating the website and using the built in terminal to push the site to GitHub.
 
-5. [GitHub](https://github.com/) was used to store the projects code after being pushed from Codeanywhere.
+5. [GitHub](https://github.com/) was used to store the project's code after being pushed from Codeanywhere.
 
 6. [Balsamiq Wireframes](https://balsamiq.com/wireframes/) were used to design the general layout and feel of the website and the high fidelity mock up during the design process.
 
 7. [Autoprefixer CSS](https://autoprefixer.github.io/) was used to add vendor prefixes to the CSS rules, to ensure that they work across all browsers.
 
-8. [Am I Responsive] was used to preview the website across a variety of popular devices.
+8. [Am I Responsive](https://ui.dev/amiresponsive?url=https://8002-coder4916-ci-milestone-ylxy4w9e48.us2.codeanyapp.com/index.html) was used to preview the website across a variety of popular devices.
 
 9. [Squoosh](https://squoosh.app/) was used to reduce the file size of the images, and change from .jpg to .AVIF. This helped to improve the overall performance of the website.
 
@@ -345,11 +335,11 @@ These features will be added where possible during further development phases:
 
 - Issue: Understanding Bootstrap 5, and being aware of updates. Eg. the class ".no gutters", to remove automatic padding that Bootstrap provides with .div rows and columns, became the class ".g-0".
 
-- Issue: Trying to remove a Bootstrap 5 color from the .active nav-bar, and having to add !Important to CSS to overide.
+- Issue: Trying to remove a Bootstrap 5 color from the .active nav-bar, and having to add an !Important color in CSS to overide.
 
-- Issue: When trying to make the NavBar responsive, it was found that this could also be done via a Bootstrap 5 .fluid class.
+- Issue: When trying to make the NavBar responsive via CSS, it was found that this could be done via a Bootstrap .fluid class.
 
-- Issue: Ports not working/updating several times on Codeanywhere IDE. I regularly had to change the Port/reset to make the updates to the site work, so I could see my progress.
+- Issue: Ports not working/updating several times on Codeanywhere IDE. I regularly had to change the Port or reset to make the updates to the site work, so I could see the Website's progress.
 
 - Issue/Bug: README.md automatically began deleting itself while updating, when laptop was plugged into a smart tv. README.md had to be copied and pasted from Github repository.
 
@@ -403,15 +393,16 @@ By cloning a GitHub Repository you can create a local copy on your computer of t
 
 1. As a first-time user, I want to be able to find the information I'm looking for quickly and easily and be able to navigate the website with ease.
 
-- The navigation bar is clearly defined, with an .active attribute, and icons attached to each option to assist the user.
-- A logo on the top of the page and in the footer leads the user back to the About Me page.
+- The navigation bar is clearly defined, with an .active attribute to display to the user which page they are on. A subtle hover function when the user moves the cursor over the menu items increases user friendliness, and icons are attached to each option to assist the user with their choice.
+- A logo on the top of the page and in the footer leads the user back to the About Me page increasing accessibility further.
 - A 'Back to Top' button is included on every page so the user can return to the navigation bar where required.
+- Links to further information can be easily accessed via each pages footer menu.
 
-2. As a first-time user, I want to learn about the owner and find out about their previous qualifications/experience.
+2. As a first-time user, I want to learn about the Coach/Owner and find out about their previous qualifications/experience.
 
-- An about me page contains three sections; The Coach, Background and Tried and Tested, which include information about the Coach's experience, background, qualifications and people he has helped.
+- An about me page contains three sections; The Coach, Background and Tried and Tested, which include information about the Coach's experience, background, qualifications and people he has helped. This is where the user will begin when arriving at the Website.
 
-3. As a first-time user, I want to know what type of coaching services the owner/website offers.
+3. As a first-time user, I want to know what type of coaching services the Owner/Website offers.
 
 - A second page has a 'What to Expect' section which includes a step by step guide based on an initial coaching session.
 
@@ -437,7 +428,7 @@ By cloning a GitHub Repository you can create a local copy on your computer of t
 - The Coach's email address is also provided in the Contact Us section if the user prefers not to use the contact Form.
 - A social media link can also can be used as an option to contact the Coach via LinkedIn. The social media link is located in the Footer.
 
-1. As a returning user I want to easily access further information as required.
+3. As a returning user I want to easily access further information as required.
 
 - For any users that want to know more about Life Coaching, there are further links via a learn more link in the footer.
 
@@ -460,7 +451,17 @@ By cloning a GitHub Repository you can create a local copy on your computer of t
 
 ### **Responsiveness**
 
-images of different sized screens
+I used web developer tools extensively throughout the project to update and correct code, adjust website aesthetics, and check/improve and confirm responsiveness on different devices, using a Bootstrap 'Mobile First' approach.
+
+Below are some examples of sections that I have tested and checked for full responsiveness on all devices. These images show the sections at each [Breakpoint](https://getbootstrap.com/docs/5.3/layout/breakpoints/#core-concepts).
+
+![Header](/assets/images/header-responsive.png)
+
+![Form](/assets/images/form-responsive.png)
+
+![Background Section](/assets/images/background-responsive.png)
+
+![Footer](/assets/images/footer-responsive.png)
 
 ### **Links Testing**
 
@@ -471,6 +472,8 @@ images of different sized screens
 ## **W3C Validator Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the project.
+
+The images below are snapshots of each page of the website after the code has been put through the Validator.
 
 ![W3C Markup Validator](/assets/images/index.html-checked.png)
 
