@@ -471,7 +471,14 @@ images of different sized screens
 ## **W3C Validator Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the project.
-[W3C Markup Validator](https://validator.w3.org/) - There were no error detected.
+
+![W3C Markup Validator](/assets/images/index.html-checked.png)
+
+![W3C Markup Validator](/assets/images/coaching.html-checked.png)
+
+![W3C Markup Validator](/assets/images/contact.html-checked.png)
+
+![W3C Markup Validator](/assets/images/style.css-checked.png)
 
 ## **Lighthouse Testing**
 
@@ -485,21 +492,24 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 1. Bootstrap 5.3: Bootstrap was used extensively throughout the project, including the following components:
 
-- [A Collapsible Navigation Bar](https://getbootstrap.com/docs/5.3/components/navbar/#toggler)
+- [A Collapsible and Expandable Navigation Bar](https://getbootstrap.com/docs/5.3/components/navbar/#toggler)
 - [A Carousel](https://getbootstrap.com/docs/5.3/components/carousel/)
 - [A Bootstrap Grid System](https://getbootstrap.com/docs/5.3/layout/grid/#example)
 
 ### **Images**
 
-- The Coach created the Logo [using
+The Coach created the Website Logo using [Hatchful by Shopify](https://www.shopify.com/tools/logo-maker?syclid=ckaok3ausvis73ecc1gg&utm_campaign=Hatchful&utm_content=Onboarding_1&utm_medium=email&utm_source=mozart).
 
 I used the following image for the background of each site page:
 
 [Close up photo of pebbles image by Ave Calvar Martinez](https://www.pexels.com/photo/close-up-photo-of-pebbles-3010168/)
 
-The following images I used to populate each page section:
+The following images Elwyn and I sourced online to populate each page section:
 
-[]
+[Hiker climbing mountains by Brodie](https://www.shopify.com/stock-photos/photos/hiker-climbing-mountains?c=landscape)
+[Question Marks by Leeloo TheFirst](https://www.pexels.com/photo/question-marks-on-paper-crafts-5428836/)
+
+All other photos/images used were sourced from Elwyn's own photo gallery. They are images of local Blue/Green space, which Elwyn is planning on using for his clientele.
 
 ## **Acknowledgements**
 
