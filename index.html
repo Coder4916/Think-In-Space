@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Think-In-Space, Life Coaching Website, Coach: Elwyn Davies, length: 5 pages, Creator: C Bailey;">
+    <meta name="description" content="Think-In-Space, Life Coaching Website, Coach: Elwyn Davies, length: 4 pages, Creator: C Bailey;">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend:100,200,300,400,500,600%7CRoboto:100,200,300,400,500,600">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
@@ -14,9 +14,20 @@
 </head>
 <body>
 
-<!--          Header          --> 
+<!--          Header
 
-    <header id="header container-fluid">
+    Bootstrap (BS) 5.3(https://getbootstrap.com/) was used to control:
+
+    The general layout using grid function .row and .col
+    .container-fluid to make elements responsive
+    .text-center to center text
+    .g-0 was used to remove BS padding
+    .navbar-toggler was used to compress the nav menu  down to a 'hamburger' icon on a small screen
+    The navbar menu items were set to an .inline-item also using BS
+
+    Icons for each menu item were sourced from Font Awesome (https://fontawesome.com/)-->
+
+    <header id="header">
         <div class="row g-0 container-fluid">
             <a href="index.html" class="col-md-3">
                 <picture>
@@ -60,7 +71,15 @@
         </div>
 </header>
 
-<!--          Coach Section          -->
+<!--          Coach Section
+
+    Bootstrap (BS) 5.3(https://getbootstrap.com/) was used to control:
+
+    The general layout using grid function .row and .col
+    .container-fluid to make elements responsive
+    .text-center to center text
+    .g-0 was used to remove BS padding
+    .img-fluid to make the image responsive on different size devices -->
 
     <section id="coach-section" class="container-fluid ">
         <div class="row g-0 container-fluid">
@@ -70,7 +89,7 @@
         </div>
             <div class="row g-0 container-fluid">
                 <picture class="col-md-4 coach-image text-center">
-                    <img src="assets/images/edavies-image.jpg" class="img-fluid" alt="The Coach, Elwyn Davies">
+                    <img src="assets/images/senior_teaching_young_man.avif" class="img-fluid" alt="Senior teaching young man">
                 </picture>
                 <div class="col-md-8 coach-info">
                     <p>
@@ -96,7 +115,16 @@
             </div>
     </section>
 
-<!--          Background Section          -->
+<!--          Background Section
+
+    Bootstrap (BS) 5.3(https://getbootstrap.com/) was used to control:
+
+    The general layout using grid function .row and .col
+    .container-fluid to make elements responsive
+    .text-center to center text
+    .g-0 was used to remove BS padding
+    .img-fluid to make the image responsive on different size devices
+    .order to change the block order of an image within the page when using smaller devices-->
 
     <section id="background-section" class="container-fluid">
         <div class="row g-0">
@@ -131,7 +159,15 @@
             </div>
     </section>
 
-<!--          Tried and Tested Section          -->
+<!--          Tried and Tested Section
+
+    Bootstrap (BS) 5.3(https://getbootstrap.com/) was used to control:
+
+    The general layout using grid function .row and .col
+    .container-fluid to make elements responsive
+    .text-center to center text
+    .g-0 was used to remove BS padding
+    .img-fluid to make the image responsive on different size devices-->
 
     <section id="tried-and-tested-section">
         <div class="row g-0">
@@ -166,10 +202,20 @@
     </div>
 </section>
 
-<!--          Footer          -->
+<!--          Footer
+
+    Bootstrap (BS) 5.3(https://getbootstrap.com/) was used to control:
+
+    The general layout using grid function .row and .col
+    .container-fluid to make elements responsive
+    .text-center to center text
+    .g-0 was used to remove BS padding
+    .img-fluid to make the image responsive on different size devices
+
+    Icons for each menu item were sourced from Font Awesome (https://fontawesome.com/)-->
 
 <footer id="footer" class="container-fluid">
-    <div class="row">
+    <div class="row g-0">
         <div class="col-md-4">
             <a href="index.html">
                 <picture>
@@ -199,7 +245,10 @@
     <a href="#header" class="col nav-link"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i> Back to top</a>
 </div>
 
-<!--          Javascript Links          -->
+<!--          Javascript Links          
+    
+    Bootstrap Javascript bundle and popper links included to import the .navbar-toggler.
+    Font Awesome Javascript links included to import icons used on the page.-->
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
