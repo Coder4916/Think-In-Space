@@ -54,7 +54,7 @@ li {
 
 .header-logo {
     width: 100%;
-    height: 1;
+    height: auto;
 }
 
 .title-nav-container {

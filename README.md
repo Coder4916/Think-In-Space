@@ -485,6 +485,8 @@ The images below are snapshots of each page of the website after the code has be
 
 ## **Lighthouse Testing**
 
+![Think-In-Space Lighthouse testing](/assets/images/lighthouse-testing.png)
+
 ## **CI Peer Code Review on Slack**
 
 ## **Further Testing
