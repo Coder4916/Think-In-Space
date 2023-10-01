@@ -1,6 +1,6 @@
 # **Think-In-Space**
 
-![Am I Responsive Image]()
+![Am I Responsive Image](/assets/images/am-i-responsive.png)
 
 ## **Table of Contents**
 
@@ -56,11 +56,11 @@
   - [**Autoprefixer CSS**](#autoprefixer-css)
   - [\*\*W3C Validator Testing](#w3c-validator-testing)
   - [**Lighthouse Testing**](#lighthouse-testing)
-  - [**CI Peer Code Review on Slack**](#ci-peer-code-review-on-slack)
   - [\*\*Further Testing](#further-testing)
   - [**Credits**](#credits)
     - [**Code**](#code)
     - [**Images**](#images)
+    - [**Additional contents**](#additional-contents)
   - [**Acknowledgements**](#acknowledgements)
 
 ## **Introduction**
@@ -451,7 +451,7 @@ By cloning a GitHub Repository you can create a local copy on your computer of t
 
 ### **Responsiveness**
 
-I used web developer tools extensively throughout the project to update and correct code, adjust website aesthetics, and check/improve and confirm responsiveness on different devices, using a Bootstrap 'Mobile First' approach.
+I used web developer tools extensively throughout the project to update and correct code, adjust website aesthetics, and check/improve and confirm responsiveness accross all devices, using a Bootstrap 'Mobile First' approach.
 
 Below are some examples of sections that I have tested and checked for full responsiveness on all devices. These images show the sections at each [Breakpoint](https://getbootstrap.com/docs/5.3/layout/breakpoints/#core-concepts).
 
@@ -465,9 +465,22 @@ Below are some examples of sections that I have tested and checked for full resp
 
 ### **Links Testing**
 
+The links were tested to ensure that:
+
+All navigation external/internal links are working correctly.
+The social media button and the learn more page links are working and opening in a new tab.
+Hovering and Active states are working.
+
 ### **Forms Testing**
 
+The Think-In-Space Form was also tested to make sure that
+the required fields are working, and the form sends the input data correctly.
+
+![Input Data sent to CI mock server](/assets/images/ci-confirm-form.png)
+
 ## **Autoprefixer CSS**
+
+Autoprefixer CSS was used to add CSS vendor prefixes to the CSS rules after the developing process was done and the CSS was validated, to ensure that they work across all browsers.
 
 ## **W3C Validator Testing
 
@@ -485,9 +498,15 @@ The images below are snapshots of each page of the website after the code has be
 
 ## **Lighthouse Testing**
 
+Chrome Lighthouse testing was used to check the performance, accessibility, best practices, and SEO. After applying some changes to make the performance faster, including resizing all of the images, compressing image/changing the file size and adding a rel=noopener to all external links, the results below were achieved:
+
+- Desktop:
+
 ![Think-In-Space Lighthouse testing](/assets/images/lighthouse-testing.png)
 
-## **CI Peer Code Review on Slack**
+- Mobile:
+
+![Think-In-Space Lighthouse testing](/assets/images/lighthouse-testing-mobile.png)
 
 ## **Further Testing
 
@@ -495,11 +514,18 @@ The images below are snapshots of each page of the website after the code has be
 
 ### **Code**
 
-1. Bootstrap 5.3: Bootstrap was used extensively throughout the project, including the following components:
+1. [Bootstrap 5.3](https://getbootstrap.com/): Bootstrap was used extensively throughout the project, including the following components:
 
-- [A Collapsible and Expandable Navigation Bar](https://getbootstrap.com/docs/5.3/components/navbar/#toggler)
+- [A collapsible and expandable navigation bar](https://getbootstrap.com/docs/5.3/components/navbar/#toggler)
 - [A Carousel](https://getbootstrap.com/docs/5.3/components/carousel/)
-- [A Bootstrap Grid System](https://getbootstrap.com/docs/5.3/layout/grid/#example)
+- [A Bootstrap grid system](https://getbootstrap.com/docs/5.3/layout/grid/#example)
+
+2. [stackoverflow](https://stackoverflow.com/questions/21254889/how-to-remove-the-gutter-spacing-between-columns-in-bootstrap): Was used to find solutions to problems/issues when building the website, for example, finding out more information about an update when removing Bootstrap padding in a grid system.
+
+3. [w3Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp): Was used to get assitance with creating the website, for example when creating the 'back to top' button using pure CSS.
+
+4. [Autoprefixer CSS](https://autoprefixer.github.io/):
+Was used to add different vendor prefixer to CSS.
 
 ### **Images**
 
@@ -507,14 +533,21 @@ The Coach created the Website Logo using [Hatchful by Shopify](https://www.shopi
 
 I used the following image for the background of each site page:
 
-[Close up photo of pebbles image by Ave Calvar Martinez](https://www.pexels.com/photo/close-up-photo-of-pebbles-3010168/)
+[Close up photo of pebbles image; by Ave Calvar Martinez](https://www.pexels.com/photo/close-up-photo-of-pebbles-3010168/)
 
 The following images Elwyn and I sourced online to populate each page section:
 
-[Hiker climbing mountains by Brodie](https://www.shopify.com/stock-photos/photos/hiker-climbing-mountains?c=landscape)
-[Question Marks by Leeloo TheFirst](https://www.pexels.com/photo/question-marks-on-paper-crafts-5428836/)
+[Senior teaching young man; by Shopify](https://www.shopify.com/stock-photos/photos/senior-teaching-young-man?c=teacher)
 
-All other photos/images used were sourced from Elwyn's own photo gallery. They are images of local Blue/Green space, which Elwyn is planning on using for his clientele.
+[Hiker climbing mountains; by Brodie](https://www.shopify.com/stock-photos/photos/hiker-climbing-mountains?c=landscape)
+
+[Question Marks; by Leeloo TheFirst](https://www.pexels.com/photo/question-marks-on-paper-crafts-5428836/)
+
+All other photos/images used were sourced from Elwyn's photo gallery. They are images of local available Blue/Green space, which Elwyn is planning on using for his clientele.
+
+### **Additional contents**
+
+All external links/additional content was sourced via YouTube and Google Books.
 
 ## **Acknowledgements**
 

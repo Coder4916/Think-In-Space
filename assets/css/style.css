@@ -483,6 +483,11 @@ body {
     .carousel-item em {
         font-size: 15px;
     }
+
+    #faqs-section p {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 /* Medium devices (Tablets, 768px and down) */
