@@ -93,21 +93,18 @@ UX research was carried out through discussion with:
 3. As a first-time user, I want to know what type of coaching services the owner/website offers.
 4. As a first-time user, I want to be able to locate the owners social media links to see their followings and find any potential reviews etc.
 5. As a first-time user, I want to have the option to contact the owner further if required.
-6. As a first-time user, I want access to business owner operating times.
 
 #### **Returning User Goals**
   
-1. As a returning user, I want to know if   there's a FAQs page for any questions I may have.
+1. As a returning user, I want to know if there's a FAQs page for any questions I may have.
 2. As a returning user, I want access to different ways of contacting the user further if required.
-3. As a returning user, I want access to owner operating hours to book further coaching.
-4. As a returning user I want to easily access further information as required.
+3. As a returning user I want to easily access further information as required.
 
 #### **Frequent User Goal**
   
 1. As a frequent user, I want to know if there will be chance to give feedback on the website.
-2. As a frequent user, I want access to owner operating hours.
-3. As a frequent user I want to access information easily.
-4. As a frequent user I want to be able to contact the owner easily.
+2. As a frequent user I want to access information easily.
+3. As a frequent user I want to be able to contact the owner easily.
 
 ### **Research**
 
@@ -117,7 +114,7 @@ Numerous discussions with the website owner to understand their wants and needs 
 
 - Competitor research
 
-Researched other coaching websites avaialable online. This aided me to understand what is feasible, what looks good in this sector and how other coaches present themselves. This reasearch led me to suggest the owner drop the initially suggested 'Unconventional Coach' name, as there are many other more 'unconventional' methods in comparison to his offering. The research led me to conclude that in this case, 'unconventional' wasn't appropriate and wouldn't add value.
+Researched other coaching websites available online. This aided me to understand what is feasible, what looks good in this sector and how other coaches present themselves. This reasearch led me to suggest the owner drop the initially suggested 'Unconventional Coach' name, as there are many other more 'unconventional' methods in comparison to his offering. The research led me to conclude that in this case, 'unconventional' wasn't appropriate and wouldn't add value.
 
 - Sector Research
 
@@ -188,12 +185,8 @@ Based on these research, goals, and the considerations above, I considered what 
 |  G. Links                  |      4     |     4     |
 |  H. Social Media profiles  |      3     |     4     |
 |  I. Guarantees             |      2     |     1     |
-|  J. Mental Health Referal  |      3     |     2     |
+|  J. Mental Health Referal  |      2     |     2     |
 |  K. Feedback Form          |      2     |     3     |
-
-The chart below is the mapping of all of the opportunities. The yellow circle signifies which opportunities/ features have the highest combination of importance and viability.
-
-(INSERT SCATTER DIAGRAM)
 
 [Back to top](#think-in-space)
 
@@ -213,7 +206,7 @@ The user should be able to navigate easily through the website to access all the
 
 ### 3. **Structure Plane**
 
-The website must have a simple structure with a user friendly navigation element to reach each page of information.Each site page will be broken down into sections, and organised so that the information tells a story, and leads the user to a contact page if they want to explore the subject further. The pages will have a consistent predictable template to help with usability and accessibility.
+The website must have a simple structure with a user friendly navigation element to reach each page of information. Each site page will be broken down into sections, and organised so that the information tells a story, and leads the user to a contact page if they want to explore the subject further. The pages will have a consistent predictable template to help with usability and accessibility.
 
 [Back to top](#think-in-space)
 
@@ -231,11 +224,11 @@ The colors used are primarily derived from the logo provided by the website owne
 
 #### **Typography**
 
-The fonts I used for the website were sourced from Google Fonts. Inc [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) and [Lexend Font](https://fonts.google.com/specimen/Lexend?query=lexend). Lexend used for titles and Roboto for paragraphs/general text. Both fonts are recommended for use for people with dysleia [(Tink 'n' Stink)](https://www.tinknstink.co.uk/blogs/news/why-we-use-the-dyslexia-friendly-font-lexend). Fall back font Sans Serif.
+The fonts I used for the website were sourced from Google Fonts. Inc [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) and [Lexend Font](https://fonts.google.com/specimen/Lexend?query=lexend). Lexend used for titles and Roboto for paragraphs/general text. Both fonts are recommended for use for people with dysleia [(Tink 'n' Stink)](https://www.tinknstink.co.uk/blogs/news/why-we-use-the-dyslexia-friendly-font-lexend). After researching [commonly used fallback fonts](https://www.w3schools.com/css/css_font_fallbacks.asp), I decided to use serif, sans serif and monospace as Think-In -Space's fallbacks.
 
 #### **Imagery**
 
-I have utilised a mix of free to use images sourced online, and the Coach's personal pictures of local green space/blue space etc.
+I have utilised a mix of free to use images sourced online, and the Coach's personal pictures of local green space/blue space etc. I have used a fallback color if the main body image doesn't load.
 
 [Back to top](#think-in-space)
 
@@ -287,7 +280,7 @@ A Learn More link was added to the Footer, which gives the user access to a list
 
 These features will be added where possible during further development phases:
 
-- A time/date picker to book available coaching sessions automatically.
+- A time/date picker to book available coaching sessions automatically. This is likely to be created/added to the site once Elwyn can establish set operating times for his business in the future.
   
 - A Legitimate form url address where the user's details can be stored and utilised by the Coach.
 
@@ -311,7 +304,7 @@ These features will be added where possible during further development phases:
 
 1. [Bootstrap 5.3](https://getbootstrap.com/) was used to assist with the responsiveness and styling of the website.
 
-2. [Google Fonts](https://fonts.google.com/) was used to import the “Roboto”, “Lexend” fonts into the html file, and were used on all parts of the site.
+2. [Google Fonts](https://fonts.google.com/) was used to import the “Roboto” and “Lexend” fonts into the html file, and were used on all parts of the site.
 
 3. [Font Awesome](https://fontawesome.com/) was used throughout the website to add icons for aesthetic and UX purposes.
 
@@ -335,13 +328,13 @@ These features will be added where possible during further development phases:
 
 - Issue: Understanding Bootstrap 5, and being aware of updates. Eg. the class ".no gutters", to remove automatic padding that Bootstrap provides with .div rows and columns, became the class ".g-0".
 
-- Issue: Trying to remove a Bootstrap 5 color from the .active nav-bar, and having to add an !Important color in CSS to overide.
+- Issue: Trying to remove a Bootstrap 5 color from the .active nav-bar function, and having to add an !Important color in navbar CSS to overide.
 
 - Issue: When trying to make the NavBar responsive via CSS, it was found that this could be done via a Bootstrap .fluid class.
 
 - Issue: Ports not working/updating several times on Codeanywhere IDE. I regularly had to change the Port or reset to make the updates to the site work, so I could see the Website's progress.
 
-- Issue/Bug: README.md automatically began deleting itself while updating, when laptop was plugged into a smart tv. README.md had to be copied and pasted from Github repository.
+- Issue/Bug: README.md automatically began deleting itself while updating, when laptop was plugged into a smart tv. README.md had to be copied and pasted from Github repository. Some of the Readme had to be re-written.
 
 ## **Deployment**
 
@@ -509,6 +502,15 @@ Chrome Lighthouse testing was used to check the performance, accessibility, best
 ![Think-In-Space Lighthouse testing](/assets/images/lighthouse-testing-mobile.png)
 
 ## **Further Testing
+
+The Website was tested on Google Chrome, Microsoft Edge and Mozilla Firefox.
+
+The website was viewed on a variety of devices such as:
+
+Windows Laptop
+Mobile: Samsung Galaxy S12
+
+Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ## **Credits**
 

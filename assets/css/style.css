@@ -8,7 +8,7 @@
 /*------------------------------------------------ Text Elements */
 
 h3 {
-    font-family: "Lexend", sans-serif;
+    font-family: "Lexend", serif, sans-serif, monospace;
     font-weight: 400;
     font-size: 40px;
     text-align: center;
@@ -18,7 +18,7 @@ h3 {
 }
 
 h4 {
-    font-family: "Lexend", sans-serif;
+    font-family: "Lexend", serif, sans-serif, monospace;
     font-weight: 400;
     font-size: 30px;
     text-align: center;
@@ -28,19 +28,19 @@ h4 {
 }
 
 p {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", serif, sans-serif, monospace;
     font-size: 18px;
     color: rgb(231, 223, 223);
 }
 
 em {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", serif, sans-serif, monospace;
     font-size: 17px;
     color: rgb(231, 223, 223);
 }
 
 li {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", serif, sans-serif, monospace;
     font-size: 17px;
     color: rgb(231, 223, 223);
 }
@@ -75,7 +75,7 @@ li {
 
 .coach-title {
     margin: auto 0;
-    font-family: "Lexend";
+    font-family: "Lexend", serif, sans-serif, monospace;
     padding: 10px;
     font-size: 6vw;
     font-weight: 200;
@@ -84,7 +84,7 @@ li {
 
 .sub-title {
     margin: auto 0;
-    font-family: "Roboto";
+    font-family: "Roboto", serif, sans-serif, monospace;
     padding: 10px;
     font-size: 4vw;
     font-weight: 200;
@@ -124,7 +124,7 @@ li {
     width: 100%;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: "Roboto";
+    font-family: "Roboto", serif, sans-serif, monospace;
     color: rgb(231, 223, 223) !important;
 }
 
@@ -381,7 +381,7 @@ body {
     text-align: center;
 }
 
-/*------------------------------------------------ Back to top Btn */
+/*------------------------------------------------ Back to top Button */
 
 .back-to-top-btn {
     color: rgb(231, 223, 223);
@@ -392,6 +392,10 @@ body {
     position: fixed;
     bottom: 0;
     right: 0;
+}
+
+.back-to-top-btn:hover {
+    color: rgb(165, 165, 165);
 }
 
 /*------------------------------------------------ Footer */
@@ -405,7 +409,7 @@ body {
 
 #footer a {
     color: rgb(231, 223, 223);
-    font-family: "Roboto";
+    font-family: "Roboto", serif, sans-serif, monospace;
     font-size: large;
     text-decoration: none;
 }
@@ -432,9 +436,13 @@ body {
 
 .copyright-text {
     color: rgb(231, 223, 223);
-    font-family: "Roboto";
+    font-family: "Roboto", serif, sans-serif, monospace;
     font-weight: 200;
     padding-bottom: 20px;
+}
+
+#footer a:hover {
+    color: rgb(165, 165, 165);
 }
 
 /*------------------------------------------------ Learn more page */
