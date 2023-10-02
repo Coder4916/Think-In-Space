@@ -224,7 +224,7 @@ The colors used are primarily derived from the logo provided by the website owne
 
 #### **Typography**
 
-The fonts I used for the website were sourced from Google Fonts. Inc [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) and [Lexend Font](https://fonts.google.com/specimen/Lexend?query=lexend). Lexend used for titles and Roboto for paragraphs/general text. Both fonts are recommended for use for people with dysleia [(Tink 'n' Stink)](https://www.tinknstink.co.uk/blogs/news/why-we-use-the-dyslexia-friendly-font-lexend). After researching [commonly used fallback fonts](https://www.w3schools.com/css/css_font_fallbacks.asp), I decided to use serif, sans serif and monospace as Think-In -Space's fallbacks.
+The fonts I used for the website were sourced from [Google Fonts](https://fonts.google.com/). Inc [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) and [Lexend Font](https://fonts.google.com/specimen/Lexend?query=lexend). Lexend used for titles and Roboto for paragraphs/general text. Both fonts are recommended for use for people with dysleia [(Tink 'n' Stink)](https://www.tinknstink.co.uk/blogs/news/why-we-use-the-dyslexia-friendly-font-lexend). After researching [commonly used fallback fonts](https://www.w3schools.com/css/css_font_fallbacks.asp), I decided to use serif, sans serif and monospace as Think-In -Space's fallbacks.
 
 #### **Imagery**
 
@@ -258,13 +258,13 @@ I have utilised a mix of free to use images sourced online, and the Coach's pers
 
 - The Why Life Coaching, What to Expect, and Testimonials sections include information and reviews based on what would normally be involved if a user decides to book a coaching session, and help them decide whether this coaching/journey is right for them.
 
-- A Bootstrap Carousel has been added to display testimonials and is fully responsive on all devices.
+- A Bootstrap Carousel has been added to display testimonials/reviews and is fully responsive on all devices.
 
 #### 4. **Contact Page**
 
 - The Contact Page is divided into three sections, which allows the user to contact the Coach or book a session;
 
-- The Get in Touch, Opening Times and FAQs sections contain a contact form, map, availability times and answers to frequently asked questions to assist the user.
+- The Get in Touch and FAQs sections contain a contact form, map and answers to frequently asked questions to assist the user.
 
 - All sections are 75% width of the screen size and fully responsive on different sized devices.
 
@@ -286,6 +286,8 @@ These features will be added where possible during further development phases:
 
 - An option to have the website translated to Welsh if the user prefers.
 
+- More FAQs and Reviews as the business progresses.
+
 [Back to top](#think-in-space)
 
 ## **Technologies Used**
@@ -302,7 +304,7 @@ These features will be added where possible during further development phases:
 
 ### **Frameworks, Libraries and Programs Used**
 
-1. [Bootstrap 5.3](https://getbootstrap.com/) was used to assist with the responsiveness and styling of the website.
+1. [Bootstrap 5.3](https://getbootstrap.com/) was used to assist with the responsiveness and styling of the website, as well as adding components.
 
 2. [Google Fonts](https://fonts.google.com/) was used to import the “Roboto” and “Lexend” fonts into the html file, and were used on all parts of the site.
 
@@ -326,15 +328,29 @@ These features will be added where possible during further development phases:
 
 ## **Issues and Bugs**
 
-- Issue: Understanding Bootstrap 5, and being aware of updates. Eg. the class ".no gutters", to remove automatic padding that Bootstrap provides with .div rows and columns, became the class ".g-0".
+- Issue: Bootstrap navbar toggler would not collapse correctly, once expanded on a small device.
 
-- Issue: Trying to remove a Bootstrap 5 color from the .active nav-bar function, and having to add an !Important color in navbar CSS to overide.
+Solution - After some tutoring, it was noticed that I had an additional Javascript bundle link included in the HTML. Once deleted, the toggler was tested, and worked.
 
-- Issue: When trying to make the NavBar responsive via CSS, it was found that this could be done via a Bootstrap .fluid class.
+- Issue: Gaps still appearing around .row and .col classes when importing from Bootstrap whilst using the no gutters class:
 
-- Issue: Ports not working/updating several times on Codeanywhere IDE. I regularly had to change the Port or reset to make the updates to the site work, so I could see the Website's progress.
+Solution - Understanding Bootstrap 5, and being aware of updates. Eg. the class ".no gutters", to remove automatic padding that Bootstrap provides with .div rows and columns, became ".g-0". The solution to this was found on [Stack Overflow](https://stackoverflow.com/questions/21254889/how-to-remove-the-gutter-spacing-between-columns-in-bootstrap)
 
-- Issue/Bug: README.md automatically began deleting itself while updating, when laptop was plugged into a smart tv. README.md had to be copied and pasted from Github repository. Some of the Readme had to be re-written.
+- Issue: Bootstrap color automatically added when using it's .active class for the navigation bar.
+
+Solution - Resorted to using an !Important color in navbar CSS to overide.
+
+- Issue: Navigation menu was not responsive when changing to different devices.
+
+Solution - When trying to make the NavBar responsive via CSS, it was found that this could be done via a Bootstrap .fluid class.
+
+- Issue: Ports not working/updating several times on Codeanywhere IDE.
+
+Solution - I regularly had to change the Port or reset to make the updates to the site work, so I could see the Website's progress.
+
+- Issue/Bug: README.md automatically began deleting itself while updating, when laptop was plugged into a smart TV.
+
+Solution - README.md had to be copied and pasted from Github repository. Some of the Readme had to be re-written.
 
 ## **Deployment**
 
@@ -350,7 +366,7 @@ The website was deployed to Github pages using the following steps:
 4. Inside the Settings, on the left side of the page, there’s a list of tab menu. Locate the “Pages” tab, and click it.
 5. Under "Source", click the dropdown called "None", select "Master", and then click the “Save” button.
 6. The page will automatically refresh.
-7. There’s a notification message that provides the now published site link:
+7. There’s a notification message that provides the now published site [link](https://coder4916.github.io/ci_milestone/).
 
 ### **Forking the Github Repository**
 
