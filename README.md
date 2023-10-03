@@ -569,11 +569,11 @@ Was used to add different vendor prefixer to CSS.
 
 The Coach created the Website Logo using [Hatchful by Shopify](https://www.shopify.com/tools/logo-maker?syclid=ckaok3ausvis73ecc1gg&utm_campaign=Hatchful&utm_content=Onboarding_1&utm_medium=email&utm_source=mozart).
 
-I used the following image for the background of each site page:
+I used the following image, sourced from [Pexels](https://www.pexels.com/) for the background of each site page:
 
 [Close up photo of pebbles image; by Ave Calvar Martinez](https://www.pexels.com/photo/close-up-photo-of-pebbles-3010168/)
 
-The following images Elwyn and I sourced online to populate each page section:
+The following images Elwyn and I sourced from [Burst](https://www.shopify.com/stock-photos/photos/senior-teaching-young-man?c=teacher) and [Pexels](https://www.pexels.com/) to populate each page section:
 
 [Senior teaching young man; by Shopify](https://www.shopify.com/stock-photos/photos/senior-teaching-young-man?c=teacher)
 
