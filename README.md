@@ -408,21 +408,31 @@ By cloning a GitHub Repository you can create a local copy on your computer of t
 - A 'Back to Top' button is included on every page so the user can return to the navigation bar where required.
 - Links to further information can be easily accessed via each of the page's footer menu.
 
+![Navigation Bar Screenshot](/assets/images/navigation-screenshot.png)
+
 2. As a first-time user, I want to learn about the Coach/Owner and find out about their previous qualifications/experience.
 
-- An about me page contains three sections; The Coach, Background and Tried and Tested, which include information about the Coach's experience, background, qualifications and people he has helped. This is where the user will begin when arriving at the Website.
+- The Home page contains three sections; The Coach, Background and Tried and Tested, which include information about the Coach's experience, background, qualifications and people he has helped. This is where the user will begin when arriving at the Website.
+
+![Home Page Screenshot](/assets/images/home-page-screenshot.png)
 
 3. As a first-time user, I want to know what type of coaching services the Owner/Website offers.
 
 - A second page has a 'What to Expect' section which includes a step by step guide based on an initial coaching session. A carousel also informs the reader of previous client experiences.
 
+![Coaching Page Screenshot](/assets/images/coaching-page-screenshot.png)
+
 4. As a first-time user, I want to be able to locate the owner's social media links to see their followings and find any potential reviews etc.
 
 - The Coach's LinkedIn profile is attached to the footer. There is also a carousel on the coaching page which displays previous client reviews.
 
+![Footer Screenshot](/assets/images/footer-screenshot.png)
+
 5. As a first-time user, I want to have the option to contact the owner further if required.
 
 - A contact form and the Coach's contact details are available on a Contact page on the website. A link to this is included in the footer of each page, as well as via the navigation bar.
+
+![Contact Page Screenshot](/assets/images/contact-screenshot.png)
 
 #### **Returning User Goal**
 
@@ -438,15 +448,21 @@ By cloning a GitHub Repository you can create a local copy on your computer of t
 - The Coach's email address is also provided in the Get In Touch section if the user prefers not to use the contact Form.
 - A social media link can also can be used as an option to contact the Coach via LinkedIn. The social media link is located in the Footer.
 
+![Returning User Screenshot](/assets/images/returning-user-stories.png)
+
 3. As a returning user I want to easily access further information as required.
 
 - For any users that want to know more about Life Coaching, there are further external links to coaching material contained in the learn-more page via a learn more link in each page's footer.
+
+![Useful Links Screenshot](/assets/images/useful-links.png)
 
 #### **Frequent Visitor Goal**
 
 1. As a frequent user, I want to know if there will be chance to give feedback on the website.
 
 - A link to a feedback form is available in the footer.
+
+![Feedback Link Screenshot](/assets/images/feedback.png)
 
 2. As a frequent user I want to access information easily.
 
@@ -456,6 +472,8 @@ By cloning a GitHub Repository you can create a local copy on your computer of t
 3. As a frequent user I want to be able to contact the owner easily.
 
 - The Coach can be contacted via a contact form, or by phone, email, or via LinkedIn. This gives the user options, depending on what's preferable for them.
+
+![Frequent User Screenshot](/assets/images/contact-screenshot.png)
 
 ## **Manual Testing**
 
