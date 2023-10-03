@@ -512,7 +512,7 @@ Autoprefixer CSS was used to add CSS vendor prefixes to the CSS rules after the 
 
 ## **W3C Validator Testing**
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the project.
+The [W3C Markup Validator](https://validator.w3.org/) and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the project.
 
 The images below are snapshots of each page of the website after the code has been put through the Validator.
 
@@ -589,8 +589,8 @@ All external links/additional content was sourced via YouTube and Google Books.
 
 ## **Acknowledgements**
 
-- My mentor, Oluwaseun Owonikoko, for the helpful feedback on all aspects of the Website.
-- The Code Institute Tutors who helped me with some of issues I had when building the site, and for supporting me with the Testing element of my Readme.md file.
+- My mentor, Oluwaseun Owonikoko, for her guidance and helpful feedback on all aspects of the Website.
+- The Code Institute tutors who helped me with some of the issues I had when building the site, and for supporting me with the testing element of my Readme.md file.
 - My friend and mentor Elwyn Davies, for the site features and his continued support throughout, as well as his insight into the coaching world.
 - My wife Beth for her constant support throughout the first module, and for proof reading and testing my site material.
 
