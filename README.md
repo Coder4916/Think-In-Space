@@ -367,7 +367,7 @@ The website was deployed to Github pages using the following steps:
 5. Under "Source", click the dropdown called "None", select "Master", and then click the “Save” button.
 6. The page will automatically refresh.
 7. Click on Actions and then 'Deploy Static Content to Pages'
-8. There’s a notification message that provides the now published site [link](https://coder4916.github.io/ci_milestone/) on the pages tab in Github settings.
+8. There’s a notification message, your site is live at [https://coder4916.github.io/ci_milestone/], that provides the now published website on the pages tab in Github settings.
 
 ### **Forking the Github Repository**
 
