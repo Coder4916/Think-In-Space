@@ -54,9 +54,9 @@
     - [**Links Testing**](#links-testing)
     - [**Forms Testing**](#forms-testing)
   - [**Autoprefixer CSS**](#autoprefixer-css)
-  - [\*\*W3C Validator Testing](#w3c-validator-testing)
+  - [**W3C Validator Testing**](#w3c-validator-testing)
   - [**Lighthouse Testing**](#lighthouse-testing)
-  - [\*\*Further Testing](#further-testing)
+  - [**Further Testing**](#further-testing)
   - [**Credits**](#credits)
     - [**Code**](#code)
     - [**Images**](#images)
@@ -65,11 +65,11 @@
 
 ## **Introduction**
 
-The Think-In-Space Website was created alongside my friend, coach and mentor Elwyn Davies. It is a Life Coaching website designed to reach out to people seeking coaching, guidance or even referral.
+The Think-In-Space Website was created alongside my friend, coach and mentor Elwyn Davies. It is a Life Coaching website designed to reach out to people seeking coaching, guidance or even a referral elsewhere if necessary.
 
 Elwyn had been planning to get help with creating a website to compliment his life coaching work, and to advertise his persona and skills to a wider audience. The Code Institute's first milestone project was the perfect opportunity to get the ball rolling.
 
-The main requirement of this project was to build a responsive, static front end site, with the main principle of making the website simple and easy to use.
+The main requirement of this project was to build a responsive, static front end site, with the primary objective of making the website simple and easy to use.
 
 After several discussions and mind mapping ideas, a strategy was implemented.
 
@@ -91,12 +91,12 @@ UX research was carried out through discussion with:
 1. As a first-time user, I want to be able to find the information I'm looking for quickly and easily and be able to navigate the website with ease.
 2. As a first-time user, I want to learn about the owner and find out about their previous qualifications/experience.
 3. As a first-time user, I want to know what type of coaching services the owner/website offers.
-4. As a first-time user, I want to be able to locate the owners social media links to see their followings and find any potential reviews etc.
+4. As a first-time user, I want to be able to locate the owner's social media links to see their followings and find any potential reviews etc.
 5. As a first-time user, I want to have the option to contact the owner further if required.
 
 #### **Returning User Goals**
   
-1. As a returning user, I want to know if there's a FAQs page for any questions I may have.
+1. As a returning user, I want to know if there's an FAQs page for any questions I may have.
 2. As a returning user, I want access to different ways of contacting the user further if required.
 3. As a returning user I want to easily access further information as required.
 
@@ -114,7 +114,7 @@ Numerous discussions with the website owner to understand their wants and needs 
 
 - Competitor research
 
-Researched other coaching websites available online. This aided me to understand what is feasible, what looks good in this sector and how other coaches present themselves. This reasearch led me to suggest the owner drop the initially suggested 'Unconventional Coach' name, as there are many other more 'unconventional' methods in comparison to his offering. The research led me to conclude that in this case, 'unconventional' wasn't appropriate and wouldn't add value.
+Researched other coaching websites available online. This enabled me to understand what is feasible, what looks good in this sector and how other coaches present themselves. This research led me to suggest the owner drop the initially suggested 'Unconventional Coach' name, as there are many other more 'unconventional' methods in comparison to his offering. The research led me to conclude that in this case, 'unconventional' wasn't appropriate and wouldn't add value.
 
 - Sector Research
 
@@ -134,7 +134,7 @@ Examples of sites I reviewed to bolster my research:
 
 ### **Project Goals**
 
-The project goal is to provide an informational and promotional life coaching website 'Think-in-Space'. This site will make it easy for customers looking for life coaching to determine whether this is the right route and approach for them, and enable them to start the journey.
+The project goal is to provide an informative and promotional life coaching website 'Think-in-Space'. This site will make it easy for customers looking for life coaching to determine whether this is the right route and approach for them, and enable them to start the journey.
 
 ### **User Goals**
 
@@ -158,7 +158,7 @@ The business goals of this site are:
 - Acquire new customers to the business
 - Provide information for people looking to begin life coaching
 - To introduce life coaching as a concept to people who may not have otherwise considered it
-- Using FAQs, reviews and testimonials to drive further engagement from returning users
+- Use FAQs, reviews and testimonials to drive further engagement from returning users
 
 [Back to top](#think-in-space)
 
@@ -172,7 +172,7 @@ Think-in-Space has a Business-To-Customer (B2C) product, in an emerging but busy
 
 ### **Strategy Table**
 
-Based on these research, goals, and the considerations above, I considered what should be implemented on the website. I mapped the ideas based on their importance (driven by business goals and user needs), and viability (given limited time and resources), to determine which ideas were going to be included and which were not:
+Based on the research, goals, and the considerations above, I considered what should be implemented on the website. I mapped the ideas based on their importance (driven by business goals and user needs), and viability (given limited time and resources), to determine which ideas were going to be included and which were not:
 
 | Features/Ideas             | Importance | Viability |
 | -------------------------- |:----------:| ---------:|
@@ -194,13 +194,13 @@ Based on these research, goals, and the considerations above, I considered what 
 
 Based on the mapping in Strategy Plane, I decided to include these contents below in the website:
 
-- Coach Bio and background; Introduces the user to the coach.
-- How Coaching works; Will inform the user of what Life Coaching is, and whether it is the right choice for them.
+- Coach Bio and background; introduces the user to the coach.
+- How Coaching works; will inform the user of what Life Coaching is, and whether it is the right choice for them.
 - Contact form; which will include a request for a coaching session or further information depending on what the user needs.
 - Frequently Asked Questions; which will further aid the user's decision based on the choice to try out Life Coaching.
-- Location and approach; A map will be included, as well as suggestions based on where coaching could take place.
+- Location and approach; a map will be included, as well as suggestions based on where coaching could take place.
 - Functionality requirements:
-The user should be able to navigate easily through the website to access all the contents via a navigation menu.
+the user should be able to navigate easily through the website to access all the contents via a navigation menu.
 - The user should have access to the owner's contact details as required
 - The user will be able to access a series of testimonials via a user friendly carousel
 
@@ -366,7 +366,8 @@ The website was deployed to Github pages using the following steps:
 4. Inside the Settings, on the left side of the page, there’s a list of tab menu. Locate the “Pages” tab, and click it.
 5. Under "Source", click the dropdown called "None", select "Master", and then click the “Save” button.
 6. The page will automatically refresh.
-7. There’s a notification message that provides the now published site [link](https://coder4916.github.io/ci_milestone/).
+7. Click on Actions and then 'Deploy Static Content to Pages'
+8. There’s a notification message that provides the now published site [link](https://coder4916.github.io/ci_milestone/) on the pages tab in Github settings.
 
 ### **Forking the Github Repository**
 
@@ -403,9 +404,9 @@ By cloning a GitHub Repository you can create a local copy on your computer of t
 1. As a first-time user, I want to be able to find the information I'm looking for quickly and easily and be able to navigate the website with ease.
 
 - The navigation bar is clearly defined, with an .active attribute to display to the user which page they are on. A subtle hover function when the user moves the cursor over the menu items increases user friendliness, and icons are attached to each option to assist the user with their choice.
-- A logo on the top of the page and in the footer leads the user back to the About Me page increasing accessibility further.
+- A logo on the top of the page and in the footer leads the user back to the Home page increasing accessibility further.
 - A 'Back to Top' button is included on every page so the user can return to the navigation bar where required.
-- Links to further information can be easily accessed via each pages footer menu.
+- Links to further information can be easily accessed via each of the page's footer menu.
 
 2. As a first-time user, I want to learn about the Coach/Owner and find out about their previous qualifications/experience.
 
@@ -413,33 +414,33 @@ By cloning a GitHub Repository you can create a local copy on your computer of t
 
 3. As a first-time user, I want to know what type of coaching services the Owner/Website offers.
 
-- A second page has a 'What to Expect' section which includes a step by step guide based on an initial coaching session.
+- A second page has a 'What to Expect' section which includes a step by step guide based on an initial coaching session. A carousel also informs the reader of previous client experiences.
 
-4. As a first-time user, I want to be able to locate the owners social media links to see their followings and find any potential reviews etc.
+4. As a first-time user, I want to be able to locate the owner's social media links to see their followings and find any potential reviews etc.
 
-- The Coach's LinkedIn profile is attached to the footer, as well as a link to a feedback list from previous clientele.
+- The Coach's LinkedIn profile is attached to the footer. There is also a carousel on the coaching page which displays previous client reviews.
 
-5. As a first-time user, I want to have the option to contact the owner further if required. 
+5. As a first-time user, I want to have the option to contact the owner further if required.
 
 - A contact form and the Coach's contact details are available on a Contact page on the website. A link to this is included in the footer of each page, as well as via the navigation bar.
 
 #### **Returning User Goal**
 
-1. As a returning user, I want to know if there's a FAQs page for any questions I may have.
+1. As a returning user, I want to know if there's an FAQs page for any questions I may have.
 
 - The FAQ section on the Contact page provides the answers to some of the questions that the user might have.
 - The contact form also functions as one of the options for the user to ask questions.
 
-2. As a returning user, I want access to different ways of contacting the user further if required.
+2. As a returning user, I want access to different ways of contacting the owner further if required.
 
 - The contact form functions as the main means of communication for the user to contact the Coach.
-- The Coach's phone number is provided in the Contact Us section.
-- The Coach's email address is also provided in the Contact Us section if the user prefers not to use the contact Form.
+- The Coach's phone number is provided in the Get In Touch section.
+- The Coach's email address is also provided in the Get In Touch section if the user prefers not to use the contact Form.
 - A social media link can also can be used as an option to contact the Coach via LinkedIn. The social media link is located in the Footer.
 
 3. As a returning user I want to easily access further information as required.
 
-- For any users that want to know more about Life Coaching, there are further links via a learn more link in the footer.
+- For any users that want to know more about Life Coaching, there are further external links to coaching material contained in the learn-more page via a learn more link in each page's footer.
 
 #### **Frequent Visitor Goal**
 
@@ -449,7 +450,7 @@ By cloning a GitHub Repository you can create a local copy on your computer of t
 
 2. As a frequent user I want to access information easily.
 
-- Access to further information is available via a 'learn more' link in the footer. 
+- Access to further information is available via a learn more link in each page footer. 
 - The Contact Form can also be used to contact the Coach to find out more.
 
 3. As a frequent user I want to be able to contact the owner easily.
@@ -474,10 +475,10 @@ Below are some examples of sections that I have tested and checked for full resp
 
 ### **Links Testing**
 
-The links were tested to ensure that:
+Once deployed, the website links were tested to ensure that:
 
 All navigation external/internal links are working correctly.
-The social media button and the learn more page links are working and opening in a new tab.
+The social media button and the learn more page links are working and opening in a new tab. All links were working and set to a relative filepath.
 Hovering and Active states are working.
 
 ### **Forms Testing**
@@ -491,7 +492,7 @@ the required fields are working, and the form sends the input data correctly.
 
 Autoprefixer CSS was used to add CSS vendor prefixes to the CSS rules after the developing process was done and the CSS was validated, to ensure that they work across all browsers.
 
-## **W3C Validator Testing
+## **W3C Validator Testing**
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the project.
 
@@ -517,14 +518,15 @@ Chrome Lighthouse testing was used to check the performance, accessibility, best
 
 ![Think-In-Space Lighthouse testing](/assets/images/lighthouse-testing-mobile.png)
 
-## **Further Testing
+## **Further Testing**
 
-The Website was tested on Google Chrome, Microsoft Edge and Mozilla Firefox.
+The Website was tested on Google Chrome, Microsoft Edge and Mozilla Firefox. Microsoft Edge required extensions to run the site images correctly.
 
 The website was viewed on a variety of devices such as:
 
 Windows Laptop
 Mobile: Samsung Galaxy S12
+Web developer tools devices
 
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -570,7 +572,8 @@ All external links/additional content was sourced via YouTube and Google Books.
 ## **Acknowledgements**
 
 - My mentor, Oluwaseun Owonikoko, for the helpful feedback on all aspects of the Website.
+- The Code Institute Tutors who helped me with some of issues I had when building the site, and for supporting me with the Testing element of my Readme.md file.
 - My friend and mentor Elwyn Davies, for the site features and his continued support throughout, as well as his insight into the coaching world.
-- My wife Beth for her constant support, and for proof reading and testing my site material.
+- My wife Beth for her constant support throughout the first module, and for proof reading and testing my site material.
 
 [Back to top](#think-in-space)
